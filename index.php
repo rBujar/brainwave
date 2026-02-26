@@ -1,19 +1,22 @@
+<?php require_once 'vite-helper.php'; ?>
 <!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="/src/css/style.scss">
-    <link rel="shortcut icon" type="image/x-icon" href="src/assets/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <?php viteClient(); ?>
+  <?php viteEntry('src/css/style.scss'); ?>
+  <link rel="shortcut icon" type="image/x-icon" href="<?php echo viteAsset('src/assets/favicon.ico'); ?>" />
+    <link rel="shortcut icon" type="image/x-icon" href="src/assets/favicon.ico" />
     <title>Brainwave</title>
   </head>
   <body>
-    <header class="container">
+    <header class="header container">
       <div class="header__logo">
         <img src="src/assets/logo.svg" alt="logo">
       </div>
       <div class="header__nav container">
-      <ul class="header__menu container">
+      <ul class="header__menu">
             <li class="header__item"><a href="#">Demos</a></li>
             <li class="header__item"><a href="#">Pages</a></li>
             <li class="header__item"><a href="#">Support</a></li>
@@ -27,6 +30,6 @@
         <span class="header__hamburger--bar header__hamburger--bar--bottom"></span>
     </div>
     </header>
-    <script type="module" src="/src/js/main.js"></script>
-  </body>
+    <?php viteEntry('src/js/main.js'); ?>
+    </body>
 </html>
