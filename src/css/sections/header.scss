@@ -1,20 +1,20 @@
-.header{
+.header {
     @include position($direction: row, $justify: space-between);
     padding-top: 20px;
 
-    &__logo{
-        h4{
+    &__logo {
+        h4 {
             color: var(--general-color-black);
         }
     }
 
-    &__hamburger{
+    &__hamburger {
         display: block;
         cursor: pointer;
         z-index: 3;
         padding-bottom: 5px;
 
-        &--bar{
+        &--bar {
             display: block;
             background-color: var(--primary-color-blue);
             border-radius: 3px;
@@ -43,11 +43,11 @@
         }
     }
 
-    &__nav{
+    &__nav {
         @include position($align: left, $justify: top);
         position: fixed;
         width: 100%;
-        background-color:  var(--secondary-color-lightBlue);
+        background-color: var(--secondary-color-lightBlue);
         top: 50px;
         right: 0;
         transform: translateX(100%);
@@ -65,26 +65,25 @@
         }
     }
 
-    &__menu{
+    &__menu {
         @include position($align: left);
         gap: 10px;
 
-        a{
+        a {
             color: var(--general-color-black);
             font-size: 16px;
             transition: color 0.2s ease-in-out;
 
-            &:hover{
+            &:hover {
                 color: var(--primary-color-blue);
             }
         }
     }
 
-    button{
+    button {
         text-transform: capitalize;
         max-width: 170px;
         padding: 10px 15px;
-        
     }
 }
 
@@ -92,20 +91,21 @@
     overflow: hidden;
 }
 
-@media (min-width : 1200px) {
-    .header__nav.container, .header__button.container{
+@media (min-width: 1200px) {
+
+    .header__nav.container,
+    .header__button.container {
         max-width: initial;
         padding: 0px;
         margin: 0px;
     }
 
-    .header{
-
-        &__hamburger{
+    .header {
+        &__hamburger {
             display: none;
         }
 
-        &__nav{
+        &__nav {
             position: static;
             transform: none;
             transition: none;
@@ -118,14 +118,14 @@
             width: initial;
         }
 
-        &__menu{
+        &__menu {
             flex-direction: row;
             align-items: center;
             justify-content: center;
             gap: 40px;
         }
 
-        &__button{
+        &__button {
             display: flex;
             align-items: center;
         }
