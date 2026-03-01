@@ -1,0 +1,71 @@
+.hero {
+    padding-bottom: 0px;
+
+    &__content {
+        margin-bottom: 50px;
+        @include position();
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 20px;
+
+        h2 {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__button {
+        button {
+            text-transform: capitalize;
+            max-width: 200px;
+            padding: 18px 35px;
+            margin-bottom: 10px;
+        }
+    }
+
+    &__link {
+        @include position($direction: row);
+
+        a {
+            text-transform: uppercase;
+            margin-left: 10px;
+        }
+    }
+
+    &__img {
+        position: relative;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        &__title {
+            margin-bottom: 30px;
+        }
+
+        &__button {
+            button {
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .hero {
+        padding-top: 50px;
+
+        &__content {
+            align-items: start;
+        }
+
+        &__title {
+            text-align: left;
+        }
+
+        &__button {
+            align-items: start;
+        }
+    }
+}
