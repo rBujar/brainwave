@@ -21,12 +21,13 @@ body {
     --primary-color-green: #68d585;
     --primary-color-red: #f74d4d;
     --secondary-color-lightBlue: #473bf033;
-    --general-color-black: #161C2D;
-    --general-color-white: #FFFFFF;
+    --general-color-black: #161c2d;
+    --general-color-white: #ffffff;
     --text-color-grey: #a0a0a0;
 }
 
-button, a{
+button,
+a {
     cursor: pointer;
 }
 
@@ -39,7 +40,7 @@ li {
     list-style: none;
 }
 
-ul{
+ul {
     padding: 0px;
 }
 
@@ -103,7 +104,7 @@ button {
     color: var(--general-color-white);
     transition: background-color 0.2 ease-in-out;
 
-    &:hover{
+    &:hover {
         background-color: #736af4;
     }
 }
@@ -113,12 +114,12 @@ button {
     color: var(--general-color-black);
 }
 
-.dark-bg{
-    background-color: #161C2D;
+.dark-bg {
+    background-color: #161c2d;
 }
 
-.logo-style{
-    font-family: 'Rubik', sans-serif;
+.logo-style {
+    font-family: "Rubik", sans-serif;
     font-size: 28px;
     line-height: 30px;
 }
