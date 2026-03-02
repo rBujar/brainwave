@@ -1,8 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import "mixins.scss";
 @import "./grid_system.scss";
 @import "./reset.css";
-@import "/src/css/seactions/header.scss";
+@import "/src/css/sections/header.scss";
+@import "/src/css/sections/footer.scss";
+@import "/src/css/brainwave-fonts.css";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 body{
     font-family: 'Roboto', sans-serif;
@@ -19,18 +22,24 @@ body{
     --secondary-color-lightBlue: #473bf033;
     --general-color-black: #161C2D;
     --general-color-white: #FFFFFF;
+    --text-color-grey: #a0a0a0;
 }
 
-button a{
+button, a{
     cursor: pointer;
 }
 
 a{
     text-decoration: none;
+    color: inherit;
 }
 
 li{
     list-style: none;
+}
+
+ul{
+    padding: 0px;
 }
 
 h1{
@@ -85,17 +94,32 @@ button{
     border: none;
     outline: none;
     border-radius: 8px;
+    font-weight: 700;
 }
 
 .blue-btn{
     background-color: var(--primary-color-blue);
     color: var(--general-color-white);
+    transition: background-color 0.2 ease-in-out;
 
+    &:hover{
+        background-color: #736af4;
+    }
 }
 
 .white-btn{
     background-color: var(--general-color-white);
     color: var(--general-color-black);
+}
+
+.dark-bg{
+    background-color: #161C2D;
+}
+
+.logo-style{
+    font-family: 'Rubik', sans-serif;
+    font-size: 28px;
+    line-height: 30px;
 }
 
 .container {

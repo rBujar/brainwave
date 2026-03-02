@@ -1,0 +1,121 @@
+.footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    @include position();
+
+    &__logo {
+        text-align: center;
+        margin-bottom: 40px;
+        color: var(--text-color-grey);
+
+        h4 {
+            color: var(--general-color-white);
+        }
+
+        p {
+            max-width: 275px;
+        }
+
+        p,
+        h4 {
+            margin-bottom: 25px;
+        }
+    }
+
+    &__socials {
+        i {
+            margin-left: 15px;
+            font-size: 18px;
+            transition: color 0.2s ease-in-out;
+
+            &:hover{
+                color: var(--primary-color-green);
+            }
+
+            &:first-child {
+                margin-left: 0px;
+            }
+        }
+    }
+
+    &__menu {
+        @include position();
+        gap: 30px;
+        color: var(--general-color-white);
+        text-align: center;
+
+        p {
+            color: var(--text-color-grey);
+            margin-bottom: 20px;
+        }
+    }
+
+    &__links {
+        li {
+            margin-bottom: 20px;
+
+            &:last-child {
+                margin-bottom: 0px;
+            }
+        }
+
+        a {
+            transition: color 0.2s ease-in-out;
+
+            &:hover {
+                color: var(--text-color-grey);
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .footer {
+        align-items: start;
+
+        &__logo {
+            text-align: left;
+            margin-bottom: 50px;
+        }
+
+        &__socials {
+            i {
+                margin-left: 10px;
+            }
+        }
+
+        &__menu {
+            align-items: start;
+            text-align: left;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .footer {
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding-top: 120px;
+        padding-bottom: 120px;
+
+        &__logo {
+            margin-bottom: 0px;
+
+            p,
+            h4 {
+                margin-bottom: 30px;
+            }
+        }
+
+        &__menu {
+            flex-direction: row;
+            gap: 90px;
+        }
+
+        &__links {
+            li {
+                margin-bottom: 12px;
+            }
+        }
+    }
+}
