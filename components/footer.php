@@ -1,4 +1,4 @@
-<div class="default-bg">
+<div class="dark-bg">
     <footer class="footer container">
         <div class="footer__logo">
             <h4 class="text-bold logo-style">Brainwave.io</h4>
