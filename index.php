@@ -32,6 +32,35 @@
       </div>
       </div>
     </section>
+    <?php include 'components/video-banner.php' ?>
+        <section class="preview container">
+          <div class="row">
+            <div class="preview__title col-12 col-lg-4">
+                <h4 class="text-bold">Experienced experts are giving advices.</h4>
+                <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+                <button class="blue-btn">learn how we work</button>
+            </div>
+            <div class="preview__content col-12 col-lg-7 offset-lg-1">
+              <div class="preview__img">
+                <img src="./src/assets/preview.svg" alt="preview-img">
+              </div>
+              <div class="preview__stats">
+                <div class="preview__item">
+                  <h4 class="text-bold">1M+</h4>
+                  <p class="text-md">Customers visit Albino every month to get their service done.</p>
+                </div>
+                <div class="preview__item">
+                  <h4 class="text-bold">92%</h4>
+                  <p class="text-md">Satisfaction rate comes from our awesome customers.</p>
+                </div>
+                <div class="preview__item">
+                  <h4 class="text-bold">49/5.0</h4>
+                  <p class="text-md">Average customer ratings we have got all over internet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
     <div class="grey-bg">
       <section class="services container">
         <div class="row">
