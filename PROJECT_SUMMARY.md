@@ -13,7 +13,7 @@
 ## 📁 Project Structure
 
 ```
-Coala/
+Brainwave/
 ├── 📄 Core Files
 │   ├── index.php              # Homepage
 │   ├── vite-helper.php        # Auto dev/prod switcher

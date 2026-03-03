@@ -4,122 +4,135 @@
 @import "/src/css/sections/header.scss";
 @import "/src/css/sections/footer.scss";
 @import "/src/css/brainwave-fonts.css";
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "/src/css/sections/hero.scss";
+@import "/src/css/gilroy-font.css";
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+    font-family: 'Gilroy';
+    font-weight: normal;
+    font-style: normal;
 }
 
 ::-webkit-scrollbar {
     display: none;
 }
 
-:root{
-    --primary-color-blue: #473BF0;
-    --primary-color-green: #68D585;
-    --primary-color-red: #F74D4D;
+:root {
+    --primary-color-blue: #473bf0;
+    --primary-color-green: #68d585;
+    --primary-color-red: #f74d4d;
     --secondary-color-lightBlue: #473bf033;
-    --general-color-black: #161C2D;
-    --general-color-white: #FFFFFF;
+    --general-color-black: #161c2d;
+    --general-color-white: #ffffff;
     --text-color-grey: #a0a0a0;
 }
 
-button, a{
+button,
+a {
     cursor: pointer;
 }
 
-a{
+a {
     text-decoration: none;
     color: inherit;
 }
 
-li{
+li {
     list-style: none;
 }
 
-ul{
+ul {
     padding: 0px;
 }
 
-h1{
+h1 {
     font-size: 36px;
     line-height: 48px;
 }
 
-h2{
+h2 {
     font-size: 32px;
     line-height: 44px;
 }
 
-.text-bold{
+.text-bold {
     font-weight: 700;
 }
 
-.text-regular{
+.text-regular {
     font-weight: 400;
 }
 
-.text-xl{
+.text-xl {
     font-size: 24px;
     line-height: 34px;
 }
 
-.text-lg{
+.text-lg {
     font-size: 22px;
     line-height: 32px;
 }
 
-.text-md{
+.text-md {
     font-size: 18px;
     line-height: 32px;
 }
 
-.text-sm{
+.text-sm {
     font-size: 16px;
     line-height: 30px;
 }
 
-.text-xs{
+.text-xs {
     font-size: 14px;
     line-height: 26px;
 }
 
-.text-tiny{
+.text-tiny {
     font-size: 12px;
     line-height: auto;
 }
 
-button{
+button {
     border: none;
     outline: none;
     border-radius: 8px;
     font-weight: 700;
 }
 
-.blue-btn{
+.blue-btn {
     background-color: var(--primary-color-blue);
     color: var(--general-color-white);
     transition: background-color 0.2 ease-in-out;
 
-    &:hover{
+    &:hover {
         background-color: #736af4;
     }
 }
 
-.white-btn{
+.white-btn {
     background-color: var(--general-color-white);
     color: var(--general-color-black);
 }
 
-.dark-bg{
-    background-color: #161C2D;
+.dark-bg {
+    background-color: #161c2d;
 }
 
-.logo-style{
-    font-family: 'Rubik', sans-serif;
+.logo-style {
+    font-family: "Rubik", sans-serif;
     font-size: 28px;
     line-height: 30px;
+}
+
+.icon-play {
+    color: var(--text-color-grey);
+    border: 1px solid var(--text-color-grey);
+    outline: none;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 10px;
 }
 
 .container {
@@ -146,19 +159,19 @@ section {
         max-width: 720px;
     }
 
-    h1{
+    h1 {
         font-size: 48px;
         line-height: 58px;
     }
 
-    h2{
+    h2 {
         font-size: 36px;
         line-height: 48px;
     }
 }
 
 @media (min-width: 992px) {
-    .section{
+    section {
         padding-top: 100px;
         padding-bottom: 100px;
     }
@@ -178,7 +191,7 @@ section {
         line-height: 65px;
     }
 
-    h2{
+    h2 {
         font-size: 48px;
         line-height: 58px;
     }
