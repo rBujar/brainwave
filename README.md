@@ -1,4 +1,4 @@
-# Coala - PHP to Static HTML
+# Brainwave - PHP to Static HTML
 
 Develop with PHP (components, includes) → Build to static HTML → Deploy anywhere.
 

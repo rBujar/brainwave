@@ -5,10 +5,16 @@
 @import "/src/css/sections/footer.scss";
 @import "/src/css/brainwave-fonts.css";
 @import "/src/css/sections/hero.scss";
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import "/src/css/gilroy-font.css";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 body {
+    font-family: 'Gilroy';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.logo{
     font-family: "Roboto", sans-serif;
 }
 
