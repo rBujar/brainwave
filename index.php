@@ -40,7 +40,7 @@
                 <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
                 <button class="blue-btn">learn how we work</button>
             </div>
-            <div class="preview__content col-12 col-lg-7 offset-lg-1">
+            <div class="preview__content col-12 col-lg-8">
               <div class="preview__img">
                 <img src="./src/assets/preview.svg" alt="preview-img">
               </div>

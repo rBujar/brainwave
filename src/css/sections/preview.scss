@@ -5,7 +5,7 @@
         gap: 15px;
         margin-bottom: 50px;
 
-        p{
+        p {
             opacity: 0.7;
         }
 
@@ -23,15 +23,15 @@
         text-align: start;
     }
 
-    &__item{
+    &__item {
         p {
             max-width: 315px;
             margin-top: 10px;
             margin-bottom: 30px;
         }
 
-        &:last-child{
-            p{
+        &:last-child {
+            p {
                 margin-bottom: 0px;
             }
         }
@@ -57,13 +57,30 @@
 }
 
 @media (min-width: 992px) {
-    .preview{
-        &__title{
+    .preview {
+        &__title {
             align-items: start;
             text-align: left;
         }
+
+        &__content {
+            padding-left: 20px;
+            gap: 50px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .preview{
+        &__title{
+            p{
+                padding-right: 10px;
+            }
+        }
         &__content{
+            justify-content: center;
             gap: 70px;
+            padding-left: 0px;
         }
     }
 }
