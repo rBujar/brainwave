@@ -6,6 +6,7 @@
 @import "/src/css/brainwave-fonts.css";
 @import "/src/css/sections/hero.scss";
 @import "/src/css/gilroy-font.css";
+@import "/src/css/sections/services.scss";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 body {
@@ -20,6 +21,7 @@ body {
 
 :root {
     --primary-color-blue: #473bf0;
+    --primary-color-hoverBlue: #736af4;
     --primary-color-green: #68d585;
     --primary-color-red: #f74d4d;
     --secondary-color-lightBlue: #473bf033;
@@ -54,6 +56,11 @@ h1 {
 h2 {
     font-size: 32px;
     line-height: 44px;
+}
+
+h3 {
+    font-size: 24px;
+    line-height: 34px;
 }
 
 .text-bold {
@@ -107,7 +114,7 @@ button {
     transition: background-color 0.2 ease-in-out;
 
     &:hover {
-        background-color: #736af4;
+        background-color: var(--primary-color-hoverBlue);
     }
 }
 
@@ -118,6 +125,10 @@ button {
 
 .dark-bg {
     background-color: #161c2d;
+}
+
+.grey-bg{
+    background-color: #F4F7FA;
 }
 
 .logo-style {
@@ -168,6 +179,11 @@ section {
         font-size: 36px;
         line-height: 48px;
     }
+
+    h3{
+        font-size: 32px;
+        line-height: 44px;
+    }
 }
 
 @media (min-width: 992px) {
@@ -194,6 +210,11 @@ section {
     h2 {
         font-size: 48px;
         line-height: 58px;
+    }
+
+    h3 {
+        font-size: 36px;
+        line-height: 48px;
     }
 
     section {

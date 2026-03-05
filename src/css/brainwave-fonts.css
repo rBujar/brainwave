@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'brainwave';
-    src: url('../font/brainwave.svg?63858908#brainwave') format('svg');
+    src: url('../font/brainwave.svg?53285899#brainwave') format('svg');
   }
 }
 */
@@ -64,9 +64,9 @@
 .icon-preferences:before { content: '\e807'; } /* '' */
 .icon-check:before { content: '\e808'; } /* '' */
 .icon-play:before { content: '\e809'; } /* '' */
-.icon-arrow_right:before { content: '\e80a'; } /* '' */
 .icon-phone:before { content: '\e80b'; } /* '' */
 .icon-location:before { content: '\e80c'; } /* '' */
+.icon-arrow_right:before { content: '\e80d'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-mail:before { content: '\f0e0'; } /* '' */
 .icon-youtube:before { content: '\f16a'; } /* '' */
