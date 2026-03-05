@@ -100,6 +100,37 @@
         </div>
       </section>
     </div>
+    <section class="reasons container">
+      <div class="row">
+        <div class="reasons_img col-8 offset-2 col-lg-4 offset-lg-1 col-xl-4">
+          <img src="./src/assets/reason-person.png" alt="reason-img">
+        </div>
+        <div class="reasons__content col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-1 col-xl-4 offset-xl-2">
+          <div class="reasons__title">
+            <h3 class="text-bold">Reasons you should choose us to grow today.</h3>
+            <p class="text-md">We share common trends and strategies for improving your rental income and making sure you stay in high demand.</p>
+          </div>
+          <div class="reasons__features">
+            <div class="reasons__item">
+              <i class="icon-check"></i>
+              <p class="text-md text-bold">Fully Responsive</p>
+            </div>
+            <div class="reasons__item">
+              <i class="icon-check"></i>
+              <p class="text-md text-bold">Beautiful Layouts</p>
+            </div>
+            <div class="reasons__item">
+              <i class="icon-check"></i>
+              <p class="text-md text-bold">Easy to Edit</p>
+            </div>
+            <div class="reasons__item">
+              <i class="icon-check"></i>
+              <p class="text-md text-bold">Google Font Included</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/main.js'); ?>
     </body>
