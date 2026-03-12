@@ -38,7 +38,7 @@
             <div class="preview__title col-12 col-lg-4">
                 <h4 class="text-bold">Experienced experts are giving advices.</h4>
                 <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
-                <button class="blue-btn">learn how we work</button>
+                <a href="#"><button class="blue-btn">learn how we work</button></a>
             </div>
             <div class="preview__content col-12 col-lg-8">
               <div class="preview__img">
