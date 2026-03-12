@@ -32,6 +32,45 @@
       </div>
       </div>
     </section>
+    <div class="grey-bg">
+      <section class="services container">
+        <div class="row">
+          <div class="services__title col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3">
+            <h3 class="text-bold">Services we offer for you</h3>
+            <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+          </div>
+          <div class="services__cards col-12 col-md-6 offset-md-3 col-lg-10 offset-lg-1">
+          <div class="services__item">
+            <h5 class="text-lg text-bold">Digital Marketing</h5>
+            <img src="./src/assets/services1.svg" alt="services-1">
+            <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+            <div class="services__link">
+              <a href="#" class="text-md text-bold">Learn more</a>
+              <i class="icon-arrow_right"></i>
+            </div>
+          </div>
+          <div class="services__item">
+            <h5 class="text-lg text-bold">Business Growth</h5>
+            <img src="./src/assets/services2.svg" alt="services-1">
+            <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+            <div class="services__link">
+              <a href="#" class="text-md text-bold">Learn more</a>
+              <i class="icon-arrow_right"></i>
+            </div>
+          </div>
+          <div class="services__item">
+            <h5 class="text-lg text-bold">Content Marketing</h5>
+            <img src="./src/assets/services1.svg" alt="services-1">
+            <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+            <div class="services__link">
+              <a href="#" class="text-md text-bold">Learn more</a>
+              <i class="icon-arrow_right"></i>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
+    </div>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/main.js'); ?>
     </body>
