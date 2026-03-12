@@ -32,7 +32,7 @@
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $laptop) {
     .reasons {
         padding-bottom: 0px;
 
@@ -46,9 +46,8 @@
         }
 
         &__features {
-            flex-direction: row;
+            @include position($direction: row, $justify: start);
             flex-wrap: wrap;
-            justify-content: start;
         }
 
         &__item {
