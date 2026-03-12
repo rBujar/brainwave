@@ -105,7 +105,7 @@
         <div class="reasons_img col-8 offset-2 col-lg-4 offset-lg-1 col-xl-4">
           <img src="./src/assets/reason-person.png" alt="reason-img">
         </div>
-        <div class="reasons__content col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-1 col-xl-4 offset-xl-2">
+        <div class="reasons__content col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-1 col-xl-5 offset-xl-2">
           <div class="reasons__title">
             <h3 class="text-bold">Reasons you should choose us to grow today.</h3>
             <p class="text-md">We share common trends and strategies for improving your rental income and making sure you stay in high demand.</p>

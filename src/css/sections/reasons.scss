@@ -1,6 +1,6 @@
 .reasons {
     &__content {
-        @include position();
+        @include position($align: start);
         gap: 30px;
     }
 
@@ -32,19 +32,8 @@
     }
 }
 
-@media (min-width: $laptop) {
+@media (min-width: $tablet) {
     .reasons {
-        padding-bottom: 0px;
-
-        &__content {
-            align-items: start;
-        }
-
-        &__title {
-            text-align: left;
-            margin-top: 0px;
-        }
-
         &__features {
             @include position($direction: row, $justify: start);
             flex-wrap: wrap;
@@ -56,6 +45,21 @@
             &:nth-child(3) {
                 min-width: 175px;
             }
+        }
+    }
+}
+
+@media (min-width: $laptop) {
+    .reasons {
+        padding-bottom: 0px;
+
+        &__content {
+            align-items: start;
+        }
+
+        &__title {
+            text-align: left;
+            margin-top: 0px;
         }
     }
 }
