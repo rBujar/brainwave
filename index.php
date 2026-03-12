@@ -143,6 +143,46 @@
         <source src="./src/assets/grow-video.webm" type="video/webm"> 
       </video>
     </section>
+    <section class="reviews container">
+      <div class="row">
+        <div class="reviews__title col-12 col-lg-8 offset-lg-2">
+          <h3 class="text-bold">What people say about us</h3>
+          <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+        </div>
+        <div class="reviews__cards col-12">
+          <div class="reviews__item">
+            <img src="./src/assets/review1.png" alt="review-1">
+            <p class="text-lg">
+            With lots of unique blocks, you can easily build a page without coding. Build your next landing page.
+            </p>
+            <div class="reviews__name">
+              <p class="text-lg text-bold">Isabella Chavez</p>
+              <span class="text-sm">Graphic Designer</span>
+            </div>
+          </div>
+          <div class="reviews__item">
+            <img src="./src/assets/review2.png" alt="review-2">
+            <p class="text-lg">
+            “Simply the best. Better than all the rest. I'd recommend this product to beginners and advanced users.”
+            </p>
+            <div class="reviews__name">
+              <p class="text-lg text-bold">Curtis Rhodes</p>
+              <span class="text-sm">Digital Marketer</span>
+            </div>
+          </div>
+          <div class="reviews__item">
+            <img src="./src/assets/review3.png" alt="review-3">
+            <p class="text-lg">
+            “Must have book for all, who want to be Product Designer or Interaction Designer.”
+            </p>
+            <div class="reviews__name">
+              <p class="text-lg text-bold">Lucas Mann</p>
+              <span class="text-sm">Lucas Mann</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/main.js'); ?>
     </body>
