@@ -1,4 +1,5 @@
 @import "mixins.scss";
+@import "variables.scss";
 @import "./grid_system.scss";
 @import "./reset.css";
 @import "/src/css/sections/header.scss";
@@ -159,13 +160,13 @@ section {
     padding-bottom: 50px;
 }
 
-@media (min-width: 576px) {
+@media (min-width: $phone) {
     .container {
         max-width: 540px;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: $tablet) {
     .container {
         max-width: 720px;
     }
@@ -186,7 +187,7 @@ section {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $laptop) {
     section {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -197,7 +198,7 @@ section {
     }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: $desktop) {
     .container {
         max-width: 1140px;
     }
@@ -223,7 +224,7 @@ section {
     }
 }
 
-@media (min-width: 1400px) {
+@media (min-width: $lgDesktop) {
     .container {
         max-width: 1320px;
     }
