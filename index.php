@@ -140,7 +140,7 @@
         </div>
       </div>
       <video class="previewVideo__video-bg" muted>
-        <source src="./src/assets/grow-video.mp4" type="video/mp4"> 
+        <source src="./src/assets/grow-video.webm" type="video/webm"> 
       </video>
     </section>
     <?php include 'components/footer.php' ?>

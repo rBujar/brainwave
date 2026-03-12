@@ -63,15 +63,15 @@
     }
 }
 
-@media (min-width: 576px) {
+@media (min-width: $phone) {
     .previewVideo {
         min-height: 50vh;
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: $laptop) {
     .previewVideo {
-        min-height: 70ﬁvh;
+        min-height: 70vh;
 
         &__content {
             h3 {
