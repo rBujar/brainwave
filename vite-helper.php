@@ -19,7 +19,7 @@ function getViteUrl() {
             curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 1);
             curl_exec($ch);
             $httpCode = curl_getinfo($ch, CURLINFO_HTTP_CODE);
-            curl_close($ch);
+            // curl_close($ch);
             
             // Vite responds with any code (200, 404, etc), just needs to be running
             if ($httpCode > 0) {
