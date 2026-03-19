@@ -51,7 +51,6 @@
         border-radius: 10px;
         background-color: var(--general-color-white);
         padding: 45px 40px 50px 45px;
-       
     }
 
     &__form {
@@ -123,13 +122,12 @@
     .contact {
         &__title {
             h1 {
-                margin-bottom: 45px;
+                margin-bottom: 35px;
             }
         }
 
         &__content {
-            @include position($direction: row,
-                $align: start, $justify: start);
+            @include position($direction: row, $align: start, $justify: start);
             gap: 65px;
         }
 
@@ -154,6 +152,14 @@
 
 @media (min-width: $desktop) {
     .contact {
+        &__title {
+            margin-bottom: 100px;
+
+            h1 {
+                margin-bottom: 45px;
+            }
+        }
+
         &__card {
             i {
                 font-size: 20px;
