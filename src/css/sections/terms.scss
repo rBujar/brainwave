@@ -1,0 +1,38 @@
+.terms {
+
+    p,
+    li {
+        opacity: 0.7;
+    }
+
+    &__title {
+        text-align: center;
+        margin-bottom: 40px;
+
+        h1 {
+            margin-bottom: 35px;
+        }
+    }
+
+    &__content {
+        @include position($align: start, $justify: start);
+        gap: 45px;
+
+        h5 {
+            margin-bottom: 20px;
+        }
+    }
+
+    &__list {
+        padding-left: 15px;
+
+        li {
+            list-style-type: disc;
+
+            &:nth-child(2) {
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+}
