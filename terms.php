@@ -16,7 +16,7 @@
     <!-- <?php include 'components/header.php' ?> -->
     <section class="terms container">
         <div class="row">
-        <div class="terms__title col-12">
+        <div class="terms__title col-12 col-lg-8 offset-lg-2">
             <h1>Terms & Conditions</h1>
             <p class="text-md">By accessing and placing an order with UXTheme, you confirm that you are in agreement
                 with and bound by the terms and conditions</p>

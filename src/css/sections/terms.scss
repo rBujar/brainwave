@@ -36,3 +36,13 @@
         }
     }
 }
+
+@media (min-width: $laptop) {
+    .terms {
+        &__title {
+            h1 {
+                margin-bottom: 45px;
+            }
+        }
+    }
+}
