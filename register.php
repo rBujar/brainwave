@@ -16,34 +16,41 @@
         <section class="form container">
             <div class="row">
             <div class="form__title col-12">
-                <h1 class="text-bold">form</h1>
-                <p class="text-md">To get started, you need to sign in here.</p>
+                <h1 class="text-bold">Sign up</h1>
+                <p class="text-md">To get started, you need to sign up here.</p>
             </div>
             <div class="form__content col-12">
                 <div class="form__wrapper">
                     <div class="form__card">
+                        <div class="form__field">
+                            <label for="name" class="text-xs text-bold" >First & Last Name</label>
+                            <input type="text" id="name" name="name" placeholder="i.e. John Doe">
+                            <span class="error nameError"></span>
+                        </div>
                         <div class="form__field">
                             <label for="email" class="text-xs text-bold" >Email</label>
                             <input type="email" id="email" name="email" placeholder="i.e. john@email.com">
                             <span class="error emailError"></span>
                         </div>
                         <div class="form__field">
-                            <div class="form__item">
                             <label for="password" class="text-xs text-bold" >Password</label>
-                            <a href="./passwordReset.php" class="text-xs">Forgot password?</a>
-                            </div>
                             <input type="password" id="password" name="password" placeholder="********">
+                            <span class="error passError"></span>
+                        </div>
+                        <div class="form__field">
+                            <label for="confirmPass" class="text-xs text-bold" >Confirm password</label>
+                            <input type="password" id="confirmPass" name="confirmPass" placeholder="********">
                             <span class="error passError"></span>
                         </div>
                         <div class="form__field form__field--check">
                             <input type="checkbox" name="checkbox" id="checkbox">
-                            <span class="text-xs">Remember Me</span>
+                            <span class="text-xs">I agree to the Terms & Conditions</span>
 
                         </div>
-                        <button class="blue-btn form__button" id="submit" type="submit">Send</button>
+                        <button class="blue-btn form__button" id="submit" type="submit">Create an account</button>
                     </div>
                 </div>
-                <p class="text-md form__link">Don't have an account?<a href="./register.php">Create an account</a></p>
+                <p class="text-md form__link">Already have an Account?<a href="./login.php">Sign in now</a></p>
             </div>
             </div>
         </section>
