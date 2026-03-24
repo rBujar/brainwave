@@ -15,7 +15,7 @@
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
     font-family: 'brainwave';
-    src: url('../font/brainwave.svg?53285899#brainwave') format('svg');
+    src: url('../font/brainwave.svg?6048754#brainwave') format('svg');
   }
 }
 */
@@ -64,15 +64,31 @@
 .icon-preferences:before { content: '\e807'; } /* '' */
 .icon-check:before { content: '\e808'; } /* '' */
 .icon-play:before { content: '\e809'; } /* '' */
+.icon-smallArrow_right:before { content: '\e80a'; } /* '' */
 .icon-phone:before { content: '\e80b'; } /* '' */
 .icon-location:before { content: '\e80c'; } /* '' */
 .icon-arrow_right:before { content: '\e80d'; } /* '' */
+.icon-bubbles:before { content: '\e80e'; } /* '' */
+.icon-earth:before { content: '\e80f'; } /* '' */
+.icon-bonus:before { content: '\e810'; } /* '' */
+.icon-timer:before { content: '\e811'; } /* '' */
+.icon-user:before { content: '\e812'; } /* '' */
+.icon-dollarcircle:before { content: '\e813'; } /* '' */
+.icon-full_star:before { content: '\e814'; } /* '' */
+.icon-empty_star:before { content: '\e815'; } /* '' */
+.icon-minus:before { content: '\e816'; } /* '' */
+.icon-plus:before { content: '\e817'; } /* '' */
+.icon-cross:before { content: '\e818'; } /* '' */
+.icon-downTriangle:before { content: '\e819'; } /* '' */
 .icon-twitter:before { content: '\f099'; } /* '' */
 .icon-mail:before { content: '\f0e0'; } /* '' */
+.icon-half_star:before { content: '\f123'; } /* '' */
 .icon-youtube:before { content: '\f16a'; } /* '' */
 .icon-instagram:before { content: '\f16d'; } /* '' */
 .icon-send:before { content: '\f1d9'; } /* '' */
+.icon-paypal:before { content: '\f1ed'; } /* '' */
 .icon-toggle-off:before { content: '\f204'; } /* '' */
 .icon-toggle-on:before { content: '\f205'; } /* '' */
+.icon-question:before { content: '\f29c'; } /* '' */
 .icon-facebook:before { content: '\f308'; } /* '' */
 .icon-linkedin:before { content: '\f30c'; } /* '' */
