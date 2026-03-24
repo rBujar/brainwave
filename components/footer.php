@@ -16,7 +16,7 @@
                 <ul class="footer__links">
                     <li><a href="#" class="text-sm">About us</a></li>
                     <li><a href="#" class="text-sm">Contact us</a></li>
-                    <li><a href="#" class="text-sm">Careers</a></li>
+                    <li><a href="../careers.php" class="text-sm">Careers</a></li>
                     <li><a href="#" class="text-sm">Press</a></li>
                 </ul>
             </div>
