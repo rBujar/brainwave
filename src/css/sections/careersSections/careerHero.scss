@@ -1,0 +1,79 @@
+.careerHero {
+    &__title {
+        text-align: center;
+
+        h1 {
+            margin-bottom: 35px;
+        }
+    }
+
+    &__video {
+        @include position($direction: row);
+        position: relative;
+        overflow: hidden;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.35);
+        aspect-ratio: 16 / 9;
+
+        button {
+            border-radius: 50%;
+            outline: none;
+            @include position();
+            padding: 10px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+            background-color: var(--primary-color-blue);
+
+            &:hover {
+                background-color: var(--general-color-white);
+
+                i {
+                    color: var(--primary-color-blue);
+                }
+            }
+
+            i {
+                border: none;
+                font-size: 12px;
+                color: var(--general-color-white);
+            }
+
+            &.active {
+                opacity: 0;
+                visibility: hidden;
+            }
+        }
+    }
+
+    &__video-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        min-width: 100%;
+        min-height: 100%;
+        z-index: -1;
+    }
+}
+
+@media (min-width: $phone) {
+    .careerHero {
+        &__video {
+            height: 50vh;
+        }
+    }
+}
+
+@media (min-width: $laptop) {
+    .careerHero {
+        &__video {
+            height: 70vh;
+
+            button {
+                padding: 15px;
+            }
+        }
+    }
+}
