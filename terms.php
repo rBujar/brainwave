@@ -16,11 +16,11 @@
         <div class="row">
             <div class="terms__title col-12 col-lg-8 offset-lg-2">
                 <h1>Terms & Conditions</h1>
-                <p class="text-md">By accessing and placing an order with UXTheme, you confirm that you are in agreement
+                <p class="text-md text-faded">By accessing and placing an order with UXTheme, you confirm that you are in agreement
                     with and bound by the terms and conditions</p>
             </div>
-            <div class="terms__content col-12">
-                <p class="text-md">
+            <div class="terms__content col-12 col-lg-8 offset-lg-2">
+                <p class="text-md text-faded">
                     By accessing and placing an order with UXTheme, you confirm that you are in agreement with and bound
                     by
                     the terms and conditions contained in the Terms Of Use outlined below. These terms apply to the
@@ -39,7 +39,7 @@
                 </p>
                 <div class="terms__license">
                     <h5 class="text-md text-bold">License</h5>
-                    <p class="text-md">By purchasing or downloading resource (“item” or “file”) you are being granted a
+                    <p class="text-md text-faded">By purchasing or downloading resource (“item” or “file”) you are being granted a
                         license to use these files for specific uses under certain conditions. Ownership remains with
                         UXTheme, and you are required to abide by the following licensing terms.</p>
                 </div>
@@ -47,32 +47,32 @@
                     <h5 class="text-md text-bold">Security</h5>
                     <ul class="terms__list">
                         <li>
-                            <p class="text-md">You have rights for royalty free use of our resources for any or all of
+                            <p class="text-md text-faded">You have rights for royalty free use of our resources for any or all of
                                 your personal.</p>
                         </li>
                         <li>
-                            <p class="text-md">You are not required to attribute or link to UXTheme in any of projects.
+                            <p class="text-md text-faded">You are not required to attribute or link to UXTheme in any of projects.
                             </p>
                         </li>
                         <li>
-                            <p class="text-md">We reserve the rights to change prices and revise the resources usage
+                            <p class="text-md text-faded">We reserve the rights to change prices and revise the resources usage
                                 policy in any moment.</p>
                         </li>
                     </ul>
                 </div>
                 <div class="terms__embContent">
                     <h5 class="text-md text-bold">Embedded content from other websites</h5>
-                    <p class="text-md">Articles on this site may include embedded content (e.g. videos, images,
+                    <p class="text-md text-faded">Articles on this site may include embedded content (e.g. videos, images,
                         articles, etc.). Embedded content from other websites behaves in the exact same way as if the
                         visitor has visited the other website.</p>
-                    <p class="text-md">These websites may collect data about you, use cookies, embed additional
+                    <p class="text-md text-faded">These websites may collect data about you, use cookies, embed additional
                         third-party tracking, and monitor your interaction with that embedded content, including
                         tracking your interaction with the embedded content if you have an account and are logged in to
                         that website.</p>
                 </div>
                 <div class="terms__changes">
                     <h5 class="text-md text-bold">Changes about terms</h5>
-                    <p class="text-md">If we change our terms of use we will post those changes on this page. Registered
+                    <p class="text-md text-faded">If we change our terms of use we will post those changes on this page. Registered
                         users will be sent an email that outlines changes made to the terms of use.</p>
                 </div>
             </div>
