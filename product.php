@@ -89,6 +89,7 @@
             </div>
         </div>
     </section>
+    <div class="grey-bg">
     <section class="related container">
         <div class="row">
         <div class="related__title col-12"><h3>Related Products</h3></div>
@@ -164,6 +165,7 @@
         </div>
     </div>
     </section>
+    </div>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/main.js'); ?>
     <?php viteEntry('src/js/product.js'); ?>
