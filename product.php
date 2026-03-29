@@ -1,7 +1,6 @@
 <?php require_once 'vite-helper.php'; ?>
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -11,7 +10,6 @@
     <link rel="shortcut icon" type="image/x-icon" href="src/assets/favicon.ico" />
     <title>Brainwave</title>
 </head>
-
 <body>
     <?php include 'components/header.php' ?>
     <section class="product container">
@@ -90,6 +88,81 @@
                 </div>
             </div>
         </div>
+    </section>
+    <section class="related container">
+        <div class="row">
+        <div class="related__title col-12"><h3>Related Products</h3></div>
+        <div class="related__cards col-12">
+            <div class="related__item">
+                  <img src="./src/assets/related-1.svg" alt="related product 1">
+                  <div class="related__info">
+                    <div class="related__price">
+                        <p class="text-lg text-bold">$120</p>
+                        <p class="text-sm">$350</p>
+                    </div>
+                    <p class="text-lg text-bold">Men Shoe</p>
+                    <div class="related__stars">
+                            <i class="icon-full_star"></i>
+                            <i class="icon-full_star"></i>
+                            <i class="icon-full_star"></i>
+                            <i class="icon-full_star"></i>
+                            <i class="icon-half_star"></i>
+                    </div>
+                  </div>
+            </div>
+            <div class="related__item">
+                  <img src="./src/assets/related-2.svg" alt="related product 2">
+                  <div class="related__info">
+                    <div class="related__price">
+                        <p class="text-lg text-bold">$170</p>
+                        <p class="text-sm">$190</p>
+                    </div>
+                    <p class="text-lg text-bold">Apple Airpod 2</p>
+                    <div class="related__stars">
+                            <i class="icon-full_star"></i>
+                            <i class="icon-full_star"></i>
+                            <i class="icon-full_star"></i>
+                            <i class="icon-full_star"></i>
+                            <i class="icon-half_star"></i>
+                    </div>
+                  </div>
+            </div>
+            <div class="related__item">
+                  <img src="./src/assets/related-3.svg" alt="related product 3">
+                  <div class="related__info">
+                    <div class="related__price">
+                        <p class="text-lg text-bold">$640</p>
+                        <p class="text-sm">$890</p>
+                    </div>
+                    <p class="text-lg text-bold">Wooden Speaker</p>
+                    <div class="related__stars">
+                            <i class="icon-full_star"></i>
+                            <i class="icon-full_star"></i>
+                            <i class="icon-full_star"></i>
+                            <i class="icon-full_star"></i>
+                            <i class="icon-half_star"></i>
+                    </div>
+                  </div>
+            </div>
+            <div class="related__item">
+                  <img src="./src/assets/related-4.svg" alt="related product 4">
+                  <div class="related__info">
+                    <div class="related__price">
+                        <p class="text-lg text-bold">$640</p>
+                        <p class="text-sm">$890</p>
+                    </div>
+                    <p class="text-lg text-bold">Apple Airpod</p>
+                    <div class="related__stars">
+                            <i class="icon-full_star"></i>
+                            <i class="icon-full_star"></i>
+                            <i class="icon-full_star"></i>
+                            <i class="icon-full_star"></i>
+                            <i class="icon-half_star"></i>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
     </section>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/main.js'); ?>

@@ -1,0 +1,43 @@
+.related {
+  &__title {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  &__cards {
+    @include position();
+    gap: 40px;
+  }
+
+  &__item {
+    text-align: center;
+
+    img {
+      margin-bottom: 25px;
+    }
+  }
+
+  &__price {
+    @include position($direction: row);
+    gap: 10px;
+    margin-bottom: 18px;
+  }
+
+  &__stars {
+    margin-top: 20px;
+
+    i {
+      color: #ffac4d;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: $laptop) {
+  .related {
+    &__cards {
+      @include position($direction: row, $align: start);
+      gap: 30px;
+    }
+  }
+}
