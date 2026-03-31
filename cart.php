@@ -81,7 +81,7 @@
                             </div>
                             <div class="cart__info">
                                 <p class="text-md text-faded">Delivery Fee</p>
-                                <p class="text-md text-bold">Free</p>
+                                <p class="text-md text-bold" style="color: var(--primary-color-green)" >Free</p>
                             </div>
                         </div>
                             <div class="cart__info">
