@@ -21,7 +21,7 @@
             </div>
             <div class="form__content col-12">
                 <div class="form__wrapper">
-                    <div class="form__card">
+                    <form class="form__card">
                         <div class="form__field">
                             <label for="name" class="text-xs text-bold" >First & Last Name</label>
                             <input type="text" id="name" name="name" placeholder="i.e. John Doe">
@@ -48,7 +48,7 @@
 
                         </div>
                         <button class="blue-btn form__button" id="submit" type="submit">Create an account</button>
-                    </div>
+                    </form>
                 </div>
                 <p class="text-md form__link">Already have an Account?<a href="./login.php">Sign in now</a></p>
             </div>

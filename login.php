@@ -16,12 +16,12 @@
         <section class="form container">
             <div class="row">
             <div class="form__title col-12">
-                <h1 class="text-bold">form</h1>
+                <h1 class="text-bold">Log in</h1>
                 <p class="text-md">To get started, you need to sign in here.</p>
             </div>
             <div class="form__content col-12">
                 <div class="form__wrapper">
-                    <div class="form__card">
+                    <form class="form__card">
                         <div class="form__field">
                             <label for="email" class="text-xs text-bold" >Email</label>
                             <input type="email" id="email" name="email" placeholder="i.e. john@email.com">
@@ -41,7 +41,7 @@
 
                         </div>
                         <button class="blue-btn form__button" id="submit" type="submit">Send</button>
-                    </div>
+                    </form>
                 </div>
                 <p class="text-md form__link">Don't have an account?<a href="./register.php">Create an account</a></p>
             </div>
