@@ -14,7 +14,7 @@
     }
 }
 
-@media (min-width: $laptop) {
+@media (min-width: $md) {
     .quote {
         flex-direction: row;
         gap: 35px;
