@@ -24,7 +24,7 @@
                 <p class="text-xs">Product</p>
                 <ul class="footer__links">
                     <li><a href="#" class="text-sm">Features</a></li>
-                    <li><a href="#" class="text-sm">Pricing</a></li>
+                    <li><a href="./pricing.php" class="text-sm">Pricing</a></li>
                     <li><a href="#" class="text-sm">News</a></li>
                     <li><a href="#" class="text-sm">Help desk</a></li>
                     <li><a href="#" class="text-sm">Support</a></li>

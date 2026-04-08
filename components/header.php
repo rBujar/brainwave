@@ -1,6 +1,6 @@
 <header class="header container">
       <div class="header__logo">
-        <h4 class="text-bold logo-style">Brainwave.io</h4>
+        <h4 class="text-bold logo-style"><a href="./index.php">Brainwave.io</a></h4>
       </div>
       <div class="header__nav">
       <ul class="header__menu container">
