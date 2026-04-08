@@ -17,3 +17,19 @@ menuItem.forEach((item) => {
     }
   });
 });
+
+const videoButton = document.querySelector(".play-btn")
+const video = document.querySelector(".careerHero__video-bg")
+
+function playVideo(){
+  video.play()
+  videoButton.classList.toggle("active");
+}
+
+function restartVideo(){
+  videoButton.classList.toggle("active");
+}
+
+videoButton.addEventListener("click", playVideo)
+
+video.addEventListener("ended", restartVideo)
