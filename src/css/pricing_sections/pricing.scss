@@ -107,7 +107,7 @@
     }
 }
 
-@media (min-width: $laptop) {
+@media (min-width: $md) {
     .pricing {
         &__title {
             margin-bottom: 75px;
@@ -133,7 +133,7 @@
     }
 }
 
-@media (min-width: $desktop) {
+@media (min-width: $lg) {
     .pricing {
         &__value {
             margin-bottom: 25px;
