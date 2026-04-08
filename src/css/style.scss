@@ -12,6 +12,8 @@
 @import "/src/css/sections/services.scss";
 @import "/src/css/sections/reasons.scss";
 @import "/src/css/sections/previewVideo.scss";
+@import "/src/css/sections/reviews.scss";
+@import "/src/css/sections/quote.scss";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 body {
@@ -142,8 +144,12 @@ button {
     background-color: #161c2d;
 }
 
-.grey-bg {
-    background-color: #f4f7fa;
+.grey-bg{
+    background-color: #F4F7FA;
+}
+
+.green-bg{
+    background-color: var(--primary-color-green);
 }
 
 .logo-style {
