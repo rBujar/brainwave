@@ -85,7 +85,9 @@
         color: var(--primary-color-blue);
         transition: color 0.2s ease-in-out;
 
-        color: var(--primary-color-hoverBlue);
+        &:hover{
+            color: var(--primary-color-hoverBlue);
+        }
     }
 }
 
