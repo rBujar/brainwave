@@ -33,7 +33,7 @@
   }
 }
 
-@media (min-width: $laptop) {
+@media (min-width: $md) {
   .related {
     &__cards {
       @include position($direction: row, $align: start);
