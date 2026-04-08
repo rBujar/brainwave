@@ -35,7 +35,7 @@
     }
 }
 
-@media (min-width: $tablet) {
+@media (min-width: $sm) {
     .benefits {
         &__cards {
             align-items: center;
@@ -43,7 +43,7 @@
     }
 }
 
-@media (min-width: $laptop) {
+@media (min-width: $md) {
     .benefits {
         &__title {
             margin-bottom: 90px;

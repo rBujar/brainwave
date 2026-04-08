@@ -58,7 +58,7 @@
     }
 }
 
-@media (min-width: $phone) {
+@media (min-width: $xs) {
     .careerHero {
         &__video {
             height: 50vh;
@@ -66,7 +66,7 @@
     }
 }
 
-@media (min-width: $laptop) {
+@media (min-width: $md) {
     .careerHero {
         &__video {
             height: 70vh;
