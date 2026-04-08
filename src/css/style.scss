@@ -169,13 +169,13 @@ section {
     padding-bottom: 50px;
 }
 
-@media (min-width: $phone) {
+@media (min-width: $xs) {
     .container {
         max-width: 540px;
     }
 }
 
-@media (min-width: $tablet) {
+@media (min-width: $sm) {
     .container {
         max-width: 720px;
     }
@@ -201,7 +201,7 @@ section {
     }
 }
 
-@media (min-width: $laptop) {
+@media (min-width: $md) {
     section {
         padding-top: 100px;
         padding-bottom: 100px;
@@ -212,7 +212,7 @@ section {
     }
 }
 
-@media (min-width: $desktop) {
+@media (min-width: $lg) {
     .container {
         max-width: 1140px;
     }
@@ -243,7 +243,7 @@ section {
     }
 }
 
-@media (min-width: $lgDesktop) {
+@media (min-width: $xl) {
     .container {
         max-width: 1320px;
     }
