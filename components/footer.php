@@ -43,7 +43,7 @@
                 <p class="text-xs">Legal</p>
                 <ul class="footer__links">
                     <li><a href="#" class="text-sm">Privacy Policy</a></li>
-                    <li><a href="#" class="text-sm">Terms & Conditions</a></li>
+                    <li><a href="../terms.php" class="text-sm">Terms & Conditions</a></li>
                     <li><a href="#" class="text-sm">Return Policy</a></li>
                 </ul>
             </div>
