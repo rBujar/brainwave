@@ -145,7 +145,7 @@
     }
 }
 
-@media (min-width: $tablet) {
+@media (min-width: $sm) {
     .cart {
         &__header {
             display: block;
@@ -194,7 +194,7 @@
     }
 }
 
-@media (min-width: $laptop) {
+@media (min-width: $md) {
     .cart {
         &__item {
             justify-content: space-between;
@@ -243,7 +243,7 @@
     }
 }
 
-@media (min-width: $desktop) {
+@media (min-width: $lg) {
     .cart {
         &__item {
             justify-content: space-between;
