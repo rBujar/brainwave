@@ -32,7 +32,7 @@
     }
 }
 
-@media (min-width: $laptop) {
+@media (min-width: $md) {
     .services {
         &__cards {
             flex-direction: row;
