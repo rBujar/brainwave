@@ -7,11 +7,13 @@
 @import "/src/css/brainwave-fonts.css";
 @import "/src/css/sections/hero.scss";
 @import "/src/css/gilroy-font.css";
+@import "/src/css/sections/components/videoBanner.scss";
+@import "/src/css/sections/preview.scss";
 @import "/src/css/sections/services.scss";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 body {
-    font-family: 'Gilroy';
+    font-family: "Gilroy";
     font-weight: normal;
     font-style: normal;
 }
@@ -64,8 +66,8 @@ h3 {
     line-height: 34px;
 }
 
-h4{
-    font-size: 21px;
+h4 {
+    font-size: 20px;
     line-height: 32px;
 }
 
@@ -122,6 +124,7 @@ button {
     background-color: var(--primary-color-blue);
     color: var(--general-color-white);
     transition: background-color 0.2 ease-in-out;
+    text-transform: capitalize;
 
     &:hover {
         background-color: var(--primary-color-hoverBlue);
@@ -137,8 +140,8 @@ button {
     background-color: #161c2d;
 }
 
-.grey-bg{
-    background-color: #F4F7FA;
+.grey-bg {
+    background-color: #f4f7fa;
 }
 
 .logo-style {
@@ -190,12 +193,12 @@ section {
         line-height: 48px;
     }
 
-    h3{
+    h3 {
         font-size: 32px;
         line-height: 44px;
     }
 
-    h4{
+    h4 {
         font-size: 24px;
         line-height: 34px;
     }
@@ -231,8 +234,8 @@ section {
         font-size: 36px;
         line-height: 48px;
     }
-    
-    h4{
+
+    h4 {
         font-size: 32px;
         line-height: 44px;
     }
