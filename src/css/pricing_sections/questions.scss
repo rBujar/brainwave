@@ -1,0 +1,94 @@
+.questions {
+    &__title {
+        text-align: center;
+        margin-bottom: 70px;
+
+        h2 {
+            margin-bottom: 25px;
+        }
+
+        p {
+            opacity: 0.7;
+        }
+    }
+
+    &__cards {
+        @include position($align: start);
+        gap: 10px;
+        margin-bottom: 45px;
+    }
+
+    &__item {
+        @include position($align: start, $justify: start);
+        width: 100%;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        background-color: var(--general-color-white);
+        padding: 20px;
+        transition: height 0.2s ease-in-out;
+        height: 80px;
+
+        &.active {
+            height: fit-content;
+            gap: 25px;
+        }
+    }
+
+    &__answer {
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.1s ease-in-out;
+        opacity: 0.7;
+
+        &.active {
+            opacity: 1;
+            visibility: visible;
+        }
+    }
+
+    &__ask {
+        @include position($direction: row, $justify: space-between);
+        width: 100%;
+
+        i {
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+
+            &.active {
+                transform: rotate(-90deg);
+            }
+        }
+    }
+
+    &__link {
+        p {
+            @include position();
+        }
+
+        a {
+            color: var(--primary-color-blue);
+        }
+    }
+}
+
+@media (min-width: $xs) {
+    .questions {
+        &__link {
+            p {
+                flex-direction: row;
+                gap: 5px;
+            }
+        }
+    }
+}
+
+@media (min-width: $sm) {
+    .questions {
+        &__ask {
+            p {
+                font-size: 22px;
+            }
+        }
+    }
+}

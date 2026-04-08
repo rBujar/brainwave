@@ -14,6 +14,8 @@
 @import "/src/css/sections/previewVideo.scss";
 @import "/src/css/sections/reviews.scss";
 @import "/src/css/sections/quote.scss";
+@import "/src/css/pricing_sections/pricing.scss";
+@import "/src/css/pricing_sections/questions.scss";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 body {
@@ -31,6 +33,8 @@ body {
     --primary-color-hoverBlue: #736af4;
     --primary-color-green: #68d585;
     --primary-color-red: #f74d4d;
+    --secondary-color-lightRed: #f97e7e;
+    --secondary-color-lightGreen: #90e0a5;
     --secondary-color-lightBlue: #473bf033;
     --general-color-black: #161c2d;
     --general-color-white: #ffffff;
