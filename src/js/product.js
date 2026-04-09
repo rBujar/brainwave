@@ -11,3 +11,18 @@ minus.addEventListener("click", () => {
 if(inputNumber > 0) inputNumber--;
   document.querySelector(".input-number").innerHTML = inputNumber;
 });
+
+
+var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      spaceBetween: 40,
+      centeredSlides: true,
+      thumbs: {
+        swiper: swiper,
+      },
+    });
