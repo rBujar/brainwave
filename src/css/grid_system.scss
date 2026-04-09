@@ -66,3 +66,8 @@
     @include grid-system("xl");
     @include offset-system("xl");
 }
+
+@media (min-width: 1400px) {
+    @include grid-system("xxl");
+    @include offset-system("xxl");
+}
