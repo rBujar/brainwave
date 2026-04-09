@@ -252,5 +252,17 @@
     &__swiperContainer {
       margin-bottom: 0px;
     }
+
+    &__swiper{
+      width: 70%;
+    }
+  }
+}
+
+@media (min-width: $lg){
+  .product{
+    &__swiper{
+      width: 60%;
+    }
   }
 }

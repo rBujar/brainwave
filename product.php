@@ -19,7 +19,7 @@
         <div class="row">
             <div class="product__shop col-12">
                 <div class="row">
-                    <div class="product__swiperContainer col-12 col-lg-7 col-xl-6">
+                    <div class="product__swiperContainer col-12 col-lg-6">
                         <div class="swiper mySwiper2 product__swiper2">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide"><img src="./src/assets/product-1.jpg" alt=""></div>
@@ -41,7 +41,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="product__info col-12 col-lg-4 offset-lg-1 col-xl-5">
+                    <div class="product__info col-12 col-lg-6 col-xl-5 offset-xl-1 col-xxl-6 offset-xxl-0">
                         <div class="product__stars">
                             <i class="icon-full_star"></i>
                             <i class="icon-full_star"></i>
