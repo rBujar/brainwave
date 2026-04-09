@@ -1,19 +1,45 @@
 .product {
-  &__prodPreview {
-    margin-bottom: 50px;
+  &__swiperContainer {
+    margin-bottom: 30px;
   }
 
-  &__smallPrev {
-    @include position($direction: row, $align: start);
-    gap: 10px;
-    margin-bottom: 20px;
-
+  &__swiper2 {
     img {
+      width: 495px;
+      height: auto;
+    }
+  }
+
+  &__swiper {
+    margin-top: 10px;
+
+    .swiper-wrapper {
+      @include position($direction: row, $justify: center, $align: start);
+      gap: 10px;
+    }
+
+    .swiper-wrapper .swiper-slide {
       transition: transform 0.2s ease-in-out;
+      cursor: pointer;
 
       &:hover {
         transform: scale(1.1);
       }
+    }
+
+    .swiper-wrapper .swiper-slide {
+      width: 70px !important;
+      margin-right: 0px !important;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .swiper .swiper-wrapper .swiper-slide {
+    img {
+      border-radius: 10px;
     }
   }
 
@@ -180,51 +206,51 @@
     &__prodPreview {
       @include position($direction: row, $justify: start);
     }
-
-    &__smallPrev {
-      flex-direction: column;
-      margin-right: 20px;
-    }
   }
 }
 
 @media (min-width: $sm) {
   .product {
-    &__mainImg {
-      max-width: initial;
-    }
-
     &__content {
       justify-content: start;
       gap: 120px;
+    }
+
+    &__swiperContainer {
+      @include position($direction: row, $justify: center, $align: start);
+      gap: 10px;
+    }
+
+    &__swiper2 {
+      order: 2;
+
+      .swiper-slide-active {
+        margin-right: 0px !important;
+      }
+    }
+
+    &__swiper {
+      order: 1;
+      width: 50%;
+      margin-top: 0px;
+
+      .swiper-wrapper {
+        @include position($justify: start, $align: start);
+        height: initial;
+        gap: 10px;
+      }
+
+      .swiper-wrapper .swiper-slide {
+        padding-left: 5px;
+      }
     }
   }
 }
 
 @media (min-width: $md) {
   .product {
-    &__prodPreview {
-      margin-bottom: initial;
-    }
-
-    &__mainImg {
-      max-width: 350px;
-    }
-  }
-}
-
-@media (min-width: $lg) {
-  .product {
-    &__mainImg {
-      max-width: 400px;
-    }
-  }
-}
-
-@media (min-width: $xl) {
-  .product {
-    &__mainImg {
-      max-width: initial;
+    &__swiperContainer {
+      margin-bottom: 0px;
     }
   }
 }
