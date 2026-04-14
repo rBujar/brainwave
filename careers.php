@@ -131,7 +131,6 @@
     </section>
     </div>
     <?php include 'components/footer.php' ?>
-    <?php viteEntry('src/js/main.js'); ?>
 </body>
 
 </html>
