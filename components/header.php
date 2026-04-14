@@ -11,6 +11,7 @@
         </ul>
         <div class="header__button container">
         <button class="blue-btn">get a free quote</button>
+        <button class="blue-btn header__logout">Sign out</button>
         </div>
       </div>
       <div class="header__hamburger">
@@ -19,3 +20,5 @@
         <span class="header__hamburger--bar header__hamburger--bar--bottom"></span>
     </div>
     </header>
+
+    <?php viteEntry('src/js/header.js'); ?>

@@ -57,6 +57,7 @@
 
     &__field {
         width: 100%;
+        position: relative;
 
         &--check {
             @include position($direction: row, $justify: start);
@@ -89,6 +90,16 @@
             color: var(--primary-color-hoverBlue);
         }
     }
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    position: absolute;
+    bottom: -18px;
+    left: 5px;
 }
 
 @media (min-width: $sm) {

@@ -206,7 +206,6 @@
         </section>
     </div>
     <?php include 'components/footer.php' ?>
-    <?php viteEntry('src/js/main.js'); ?>
     <?php viteEntry('src/js/product.js'); ?>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </body>
