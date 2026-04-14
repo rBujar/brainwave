@@ -12,61 +12,41 @@
         display: none;
     }
 
-    &__cards {
-        @include position($align: start, $justify: start);
-        gap: 10px;
-        margin-bottom: 40px;
-    }
-
-    &__item {
-        @include position($direction: row);
+    &__card {
         background-color: var(--general-color-white);
         border-radius: 10px;
-        padding: 25px 20px;
-        gap: 15px;
+        padding: 20px 25px;
+        margin-bottom: 10px;
+        position: relative;
     }
 
     &__product {
-        @include position($direction: row, $align: start);
-        gap: 10px;
-
-        p {
-            font-size: 16px;
-            line-height: 25px;
-        }
-
-        img {
-            width: 50px;
-            height: 50px;
-        }
+        @include position($direction: row, $justify: start);
+        gap: 20px;
+        margin-bottom: 10px;
     }
 
-    &__productTotal {
-        display: none;
-    }
-
-    &__price {
-        @include position();
-        gap: 30px;
+    &__priceGroup {
+        margin-bottom: 20px;
     }
 
     &__quantity {
-        @include position($direction: row);
+        @include position($direction: row, $justify: end);
 
         p {
             display: none;
         }
 
         button {
+            @include position();
             border: none;
             outline: none;
             border-radius: 50%;
-            width: 25px;
-            height: 25px;
-            text-align: center;
+            width: 30px;
+            height: 30px;
 
             i {
-                font-size: 14px;
+                font-size: 12px;
 
                 &::before {
                     margin: 0;
@@ -76,32 +56,46 @@
     }
 
     &__input {
-        max-width: 30px;
-        width: 30px;
-        height: 20px;
-        font-size: 12px;
+        max-width: 50px;
+        width: 50px;
+        height: 30px;
+        font-size: 18px;
         font-weight: 700;
         border-radius: 8px;
         border: 2px solid rgba(160, 160, 160, 0.2);
         outline: none;
         text-align: center;
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
     &__remove {
         background-color: transparent;
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        transform: translate(-15px, 10px);
 
         i {
+            font-size: 14px;
+
             &::before {
                 font-weight: 700;
             }
         }
     }
 
+    &__productTotal {
+        @include position($direction: row, $align: center, $justify: space-between);
+    }
+
     &__proceed {
         @include position($align: start);
         gap: 30px;
+        margin-top: 35px;
 
         .white-btn {
             max-width: 200px;
@@ -147,40 +141,6 @@
 
 @media (min-width: $sm) {
     .cart {
-        &__header {
-            display: block;
-            @include position($direction: row, $align: start, $justify: start);
-            gap: 20px;
-            margin-bottom: 20px;
-
-            span:first-child {
-                width: 350px;
-            }
-
-            span:last-child {
-                margin-left: 38px;
-            }
-        }
-
-        &__item {
-            align-items: center;
-            gap: 30px;
-            width: 100%;
-        }
-
-        &__price {
-            flex-direction: row;
-            gap: 20px;
-        }
-
-        &__product {
-            width: 300px;
-        }
-
-        &__productTotal {
-            display: block;
-        }
-
         &__proceed {
             @include position($direction: row,
                 $justify: space-between,
@@ -196,45 +156,42 @@
 
 @media (min-width: $md) {
     .cart {
-        &__item {
-            justify-content: space-between;
-            gap: initial;
-        }
-
-        &__price {
-            gap: initial;
-            justify-content: space-between;
-            width: 25%;
+        &__header {
+            display: block;
         }
 
         &__product {
-            width: 390px;
+            margin: 0px;
+        }
+
+        &__priceGroup {
+            margin: 0px;
+
+            .row {
+                align-items: center;
+                height: 100%;
+            }
+        }
+
+        &__productTotal {
+            #totalText {
+                display: none;
+            }
+
+            span {
+                padding-left: 10px;
+            }
+        }
+
+        &__remove {
+            position: static;
+            top: initial;
+            right: initial;
+            transform: initial;
         }
 
         &__quantity {
-            button {
-                width: 30px;
-                height: 30px;
-            }
-        }
-
-        &__input {
-            max-width: 50px;
-            width: 50px;
-            height: 35px;
-            font-size: 18px;
-        }
-
-        &__header {
-            gap: 80px;
-
-            span:first-child {
-                width: 400px;
-            }
-
-            span:last-child {
-                margin-left: 30px;
-            }
+            justify-content: start;
         }
 
         &__total {
@@ -245,30 +202,13 @@
 
 @media (min-width: $lg) {
     .cart {
-        &__item {
-            justify-content: space-between;
-            gap: initial;
+        &__card {
+            padding: 25px 35px;
         }
 
-        &__price {
-            gap: initial;
-            justify-content: space-between;
-            width: 25%;
-        }
-
-        &__product {
-            width: 390px;
-        }
-
-        &__header {
-            gap: 140px;
-
-            span:first-child {
-                width: 380px;
-            }
-
-            span:last-child {
-                margin-left: 5px;
+        &__productTotal {
+            span {
+                padding-left: 20px;
             }
         }
     }
