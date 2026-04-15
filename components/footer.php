@@ -25,7 +25,7 @@
                 <ul class="footer__links">
                     <li><a href="#" class="text-sm">Features</a></li>
                     <li><a href="./pricing.php" class="text-sm">Pricing</a></li>
-                    <li><a href="#" class="text-sm">News</a></li>
+                    <li><a href="./product.php" class="text-sm">Product</a></li>
                     <li><a href="#" class="text-sm">Help desk</a></li>
                     <li><a href="#" class="text-sm">Support</a></li>
                 </ul>
