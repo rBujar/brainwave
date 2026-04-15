@@ -9,6 +9,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'src/js/main.js'),
+        main: resolve(__dirname, 'src/js/logout.js'),
         style: resolve(__dirname, 'src/css/style.scss'),
       },
     },
