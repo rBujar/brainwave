@@ -1,0 +1,177 @@
+.contact {
+    &__title {
+        text-align: center;
+        margin-bottom: 60px;
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        p {
+            opacity: 0.7;
+        }
+    }
+
+    &__content {
+        @include position($align: start);
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+
+    &__card {
+        @include position($direction: row, $align: start);
+        gap: 25px;
+
+        i {
+            color: var(--primary-color-blue);
+            border: none;
+            outline: none;
+            border-radius: 50%;
+            background-color: var(--general-color-white);
+            font-size: 20px;
+            padding: 10px;
+        }
+    }
+
+    &__info {
+        @include position($align: start, $justify: start);
+
+        a {
+            opacity: 0.7;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+    }
+
+    &__formWrapper {
+        border: none;
+        outline: none;
+        border-radius: 10px;
+        background-color: var(--general-color-white);
+        padding: 45px 40px 50px 45px;
+    }
+
+    &__form {
+        @include position($align: start);
+        gap: 30px;
+
+        label {
+            text-transform: capitalize;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input,
+        textarea {
+            border-radius: 8px;
+            border: 1px solid rgba(160, 160, 160, 0.2);
+            outline: none;
+            width: 100%;
+            padding: 10px;
+
+            &::placeholder {
+                padding: 10px;
+                font-size: 14px;
+                opacity: 0.7;
+                overflow: hidden;
+            }
+        }
+
+        textarea {
+            height: 150px;
+        }
+
+        input {
+            max-width: 495px;
+        }
+    }
+
+    &__fields {
+        @include position($direction: row, $align: start, $justify: start);
+        width: 100%;
+        gap: 30px;
+    }
+
+    &__item {
+        width: 100%;
+        position: relative;
+    }
+
+    &__button {
+        max-width: 215px;
+        padding: 15px 90px;
+    }
+}
+
+.error {
+    color: var(--primary-color-red);
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    position: absolute;
+    bottom: -25px;
+    left: 10px;
+}
+
+@media (min-width: $md) {
+    .contact {
+        &__title {
+            h1 {
+                margin-bottom: 35px;
+            }
+        }
+
+        &__content {
+            @include position($direction: row, $align: start, $justify: start);
+            gap: 65px;
+        }
+
+        &__card {
+            i {
+                font-size: 16px;
+                padding: 5px;
+            }
+        }
+
+        &__info {
+            a {
+                font-size: 14px;
+            }
+
+            p {
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+@media (min-width: $lg) {
+    .contact {
+        &__title {
+            margin-bottom: 100px;
+
+            h1 {
+                margin-bottom: 45px;
+            }
+        }
+
+        &__card {
+            i {
+                font-size: 20px;
+                padding: 10px;
+            }
+        }
+
+        &__info {
+            a {
+                font-size: 18px;
+            }
+
+            p {
+                font-size: 24px;
+            }
+        }
+    }
+}
