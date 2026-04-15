@@ -7,8 +7,13 @@ loginForm.addEventListener("submit", async (e) => {
   const emailValue = email.value;
   const passwordValue = password.value;
 
+  const API_BASE =
+  window.location.hostname.includes("localhost")
+    ? "http://127.0.0.1:8000"
+    : "https://4c48-37-26-70-153.ngrok-free.app";
+
   try {
-    const response = await fetch("http://127.0.0.1:8000/api/login", {
+    const response = await fetch(`"${API_BASE}/api/login`, {
       method: "POST",
       body: JSON.stringify({
         email: emailValue,
