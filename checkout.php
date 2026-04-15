@@ -121,7 +121,7 @@
                             </div>
                             <div class="checkout__detailCard">
                                 <div class="checkout__product">
-                                    <img src="./src/assets/checkoutAirpods.svg" alt="airpods">
+                                    <img src="./src/assets/checkoutAirpods.jpg" alt="airpods">
                                     <div class="checkout__productInfo">
                                         <p class="text-md text-bold">Apple AirPods Pro…</p>
                                         <div class="checkout__detailsInfo">
@@ -134,7 +134,7 @@
                             </div>
                             <div class="checkout__detailCard">
                                 <div class="checkout__product">
-                                    <img src="./src/assets/checkoutAirpods.svg" alt="airpods">
+                                    <img src="./src/assets/checkoutAirpods.jpg" alt="airpods">
                                     <div class="checkout__productInfo">
                                         <p class="text-md text-bold">Apple AirPods Pro…</p>
                                         <div class="checkout__detailsInfo">
