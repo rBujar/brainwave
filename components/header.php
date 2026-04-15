@@ -6,7 +6,7 @@
       <ul class="header__menu container">
             <li class="header__item text-xs text-bold"><a href="./pricing.php">Pricing</a></li>
             <li class="header__item text-xs text-bold"><a href="./job.php">Jobs</a></li>
-            <li class="header__item text-xs text-bold"><a href="./support">Support</a></li>
+            <li class="header__item text-xs text-bold"><a href="./product">Product</a></li>
             <li class="header__item text-xs text-bold"><a href="./contact.php">Contact</a></li>
         </ul>
         <div class="header__button container">

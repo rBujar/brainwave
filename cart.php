@@ -82,9 +82,9 @@
                     </div>
                 </div>
                 <div class="cart__proceed col-12" data-aos="fade" data-aos-delay="100">
-                    <button class="white-btn">
+                    <a href="./product.php"><button class="white-btn">
                         <p class="text-sm text-bold">Continue Shopping</p>
-                    </button>
+                    </button></a>
                     <div class="cart__total">
                         <p class="text-sm text-bold">Order Details</p>
                         <div class="cart__details">
@@ -101,7 +101,7 @@
                             <p class="text-lg text-bold">Total Price</p>
                             <p class="text-lg text-bold">$290</p>
                         </div>
-                        <button class="blue-btn">Proceed to checkout</button>
+                        <a href="./checkout.php"><button class="blue-btn">Proceed to checkout</button></a>
                     </div>
                 </div>
             </div>

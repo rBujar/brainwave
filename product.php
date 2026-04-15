@@ -78,8 +78,8 @@
                             <button class="plus-btn" type="button"><i class="icon-plus"></i></button>
                         </div>
                         <div class="product__buy">
-                            <button class="blue-btn">Buy now</button>
-                            <a href="" class="text-md text-bold">Add to cart</a>
+                            <a href="./checkout.php"><button class="blue-btn">Buy now</button></a>
+                            <p class="text-md text-bold">Add to cart</p>
                         </div>
                     </div>
                 </div>
