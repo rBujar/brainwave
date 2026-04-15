@@ -23,7 +23,6 @@ loginForm.addEventListener("submit", async (e) => {
     const data = await response.json();
 
     if (!response.ok) {
-      console.log(data);
       const emailError = document.querySelector(".emailError");
       const passError = document.querySelector(".passError");
       let hasError = false;

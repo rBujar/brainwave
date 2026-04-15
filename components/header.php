@@ -22,3 +22,4 @@
     </header>
 
     <?php viteEntry('src/js/header.js'); ?>
+    <?php viteEntry('src/js/logout.js'); ?>

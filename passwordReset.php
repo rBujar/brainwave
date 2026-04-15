@@ -36,7 +36,7 @@
         </section>
         </div>
         <?php include 'components/footer.php' ?>
-        <?php viteEntry('src/js/passReset.js'); ?>
+        <?php viteEntry('src/js/password-reset.js'); ?>
         </main>
 </body>
 </html>
