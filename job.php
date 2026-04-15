@@ -14,11 +14,11 @@
     <?php include 'components/header.php' ?>
     <section class="job container">
         <div class="row">
-            <div class="job__title col-12">
+            <div class="job__title col-12 col-lg-8 offset-lg-2">
                 <h1>Full Stack Developer</h1>
                 <p class="text-md">Full Time, Remote</p>
             </div>
-            <div class="job__content col-12">
+            <div class="job__content col-12 col-lg-8 offset-lg-2">
                 <div class="job__intro">
                     <p class="text-md">Headquartered in Melbourne, Australia, Envato is a completely online company with
                         an ecosystem of sites and services to help people get creative. We've consistently been named as
