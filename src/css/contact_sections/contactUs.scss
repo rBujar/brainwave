@@ -118,7 +118,7 @@
     left: 10px;
 }
 
-@media (min-width: $laptop) {
+@media (min-width: $md) {
     .contact {
         &__title {
             h1 {
@@ -150,7 +150,7 @@
     }
 }
 
-@media (min-width: $desktop) {
+@media (min-width: $lg) {
     .contact {
         &__title {
             margin-bottom: 100px;
