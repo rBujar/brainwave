@@ -81,10 +81,7 @@ function fixAssetPaths(html) {
     .replace(/href="\.\.\/index\.html"/g, 'href="/"')
     .replace(/href="\.\.\/pages\//g, 'href="/pages/')
     .replace(/href='\.\.\/index\.html'/g, "href='/'")
-    .replace(/href='\.\.\/pages\//g, "href='/pages/")
-    .replace(/href="([^"]*?)\.php"/g, 'href="$1.html"')
-    .replace(/\/([a-zA-Z0-9-_]+)\.php/g, '/$1.html')
-    .replace(/\.php/g, '.html');
+    .replace(/href='\.\.\/pages\//g, "href='/pages/");
 }
 
 // Copy assets to dist/assets

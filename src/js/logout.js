@@ -2,8 +2,14 @@ const logout = document.querySelector(".header__logout")
 
 const user = JSON.parse(localStorage.getItem('user'));
 
+const isNetlify = window.location.hostname.includes("netlify");
+
+const loginPage = isNetlify ? "/login.html" : "/login.php";
+
+
+
 if(!user){
-  window.open(`${window.location.origin}/login.php`, "_self");
+    window.location.href = loginPage;
 }else{
   console.log("You are logged in")
   logout.classList.toggle("active")
