@@ -15,7 +15,7 @@
     <div class="grey-bg">
         <section class="cart container">
             <div class="row">
-                <div class="cart__title col-12">
+                <div class="cart__title col-12" data-aos="fade" data-aos-delay="100">
                     <h1>Your cart</h1>
                     <p class="text-md text-faded">
                         2 Items on your cart
@@ -23,7 +23,7 @@
                 </div>
                 <div class="cart__content col-12">
                     <div class="row">
-                        <div class="cart__header col-12">
+                        <div class="cart__header col-12" data-aos="fade" data-aos-delay="100">
                             <div class="row">
                                 <p class="text-sm col-4 col-xl-5">Product</p>
                                 <p class="text-sm col-2">Price</p>
@@ -31,7 +31,7 @@
                                 <p class="text-sm col-4 col-xl-3">Total</p>
                             </div>
                         </div>
-                        <div class="cart__card col-12">
+                        <div class="cart__card col-12" data-aos="fade" data-aos-delay="100">
                             <div class="row">
                                 <div class="cart__product col-12 col-lg-4 col-xl-5">
                                     <img src="./src/assets/echo.svg" alt="ech image">
@@ -55,7 +55,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="cart__card col-12">
+                        <div class="cart__card col-12" data-aos="fade" data-aos-delay="200">
                             <div class="row">
                                 <div class="cart__product col-12 col-lg-4 col-xl-5">
                                     <img src="./src/assets/airpods.svg" alt="airpods image">
@@ -81,7 +81,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="cart__proceed col-12">
+                <div class="cart__proceed col-12" data-aos="fade" data-aos-delay="100">
                     <button class="white-btn">
                         <p class="text-sm text-bold">Continue Shopping</p>
                     </button>
@@ -109,5 +109,6 @@
     </div>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/cart.js'); ?>
+    <?php viteEntry('src/js/aos.js'); ?>
 </body>
 </html>

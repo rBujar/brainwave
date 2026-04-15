@@ -15,12 +15,12 @@
         <div class="grey-bg">
             <section class="pricing container">
                 <div class="row">
-                    <div class="pricing__title col-12 col-md-8 offset-md-2">
+                    <div class="pricing__title col-12 col-md-8 offset-md-2" data-aos="fade" data-aos-delay="100">
                         <h1 class="text-bold">Pricing & Plans</h1>
                         <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build
                             your next consultancy website within few minutes.</p>
                     </div>
-                    <div class="pricing__cards col-12">
+                    <div class="pricing__cards col-12" data-aos="fade" data-aos-delay="150">
                         <div class="pricing__item">
                             <div class="pricing__value">
                                 <p class="text-tiny text-bold">Starter</p>
@@ -89,12 +89,12 @@
             </section>
             <section class="questions container">
                 <div class="row">
-                    <div class="questions__title col-8 offset-2">
+                    <div class="questions__title col-8 offset-2" data-aos="fade" data-aos-delay="100">
                         <h2 class="text-bold">Frequently Asked Questions</h1>
                             <p class="text-md">With lots of unique blocks, you can easily build a page without coding.
                                 Build your next consultancy website within few minutes.</p>
                     </div>
-                    <div class="questions__cards col-12 col-lg-8 offset-lg-2">
+                    <div class="questions__cards col-12 col-lg-8 offset-lg-2" data-aos="fade" data-aos-delay="150">
                         <div class="questions__item">
                             <div class="questions__ask">
                                 <p class="text-md text-bold">Can I use Albino for my clients?</p>
@@ -132,7 +132,7 @@
                                 turpis a porta. Aliquam sagittis interdum Melisandre.</p>
                         </div>
                     </div>
-                    <div class="questions__link col-12 col-lg-8 offset-lg-2">
+                    <div class="questions__link col-12 col-lg-8 offset-lg-2" data-aos="fade" data-aos-delay="100">
                         <p class="text-md">Haven't got your answer? <a href="#">Contact our support now</a></p>
                     </div>
                 </div>
@@ -140,6 +140,7 @@
         </div>
         <?php include 'components/footer.php' ?>
         <?php viteEntry('src/js/pricing.js'); ?>
+        <?php viteEntry('src/js/aos.js'); ?>
     </main>
 </body>
 </html>

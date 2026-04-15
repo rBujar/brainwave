@@ -14,12 +14,12 @@
     <?php include 'components/header.php' ?>
     <section class="job container">
         <div class="row">
-            <div class="job__title col-12 col-lg-8 offset-lg-2">
+            <div class="job__title col-12 col-lg-8 offset-lg-2" data-aos="fade" data-aos-delay="100">
                 <h1>Full Stack Developer</h1>
                 <p class="text-md">Full Time, Remote</p>
             </div>
             <div class="job__content col-12 col-lg-8 offset-lg-2">
-                <div class="job__intro">
+                <div class="job__intro" data-aos="fade" data-aos-delay="100">
                     <p class="text-md">Headquartered in Melbourne, Australia, Envato is a completely online company with
                         an ecosystem of sites and services to help people get creative. We've consistently been named as
                         one of the Best Places to Work in Australia, since 2015, in the BRW Awards, and we've also been
@@ -34,11 +34,11 @@
                         contractors worldwide, adding more than 100 people to the business, year on year, since 2017.
                     </p>
                 </div>
-                <div class="job__desc">
+                <div class="job__desc" data-aos="fade" data-aos-delay="100">
                     <h4 class="text-xl text-bold">What you'll be doing</h4>
                     <p class="text-md">A Senior Data Engineer provides technical and delivery leadership for a team of developers working on data integration and processing projects. This role will work with stakeholders and other developers to design and implement technical data solutions for the business in a way that balances quality, cost, time and maintainability.</p>
                 </div>
-                <div class="job__skills">
+                <div class="job__skills" data-aos="fade" data-aos-delay="150">
                     <h4 class="text-xl text-bold">Skills & Qualifications</h4>
                     <ul class="job__list">
                         <li>
@@ -70,16 +70,16 @@
                         </li>
                     </ul>
                 </div>
-                <div class="job__apply">
+                <div class="job__apply" data-aos="fade" data-aos-delay="100">
                     <h4 class="text-xl text-bold">How to apply</h4>
                     <p class="text-md">If we change our job of use we will post those changes on this page. Registered
                         users will be sent an email that outlines changes made to the job of use.</p>
                 </div>
-                <button class="blue-btn">Apply for this job</button>
+                <button class="blue-btn" data-aos="fade" data-aos-delay="150">Apply for this job</button>
             </div>
         </div>
     </section>
     <?php include 'components/footer.php' ?>
-    <?php viteEntry('src/js/main.js'); ?>
+    <?php viteEntry('src/js/aos.js'); ?>
 </body>
 </html>

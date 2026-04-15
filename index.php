@@ -14,7 +14,7 @@
     <?php include 'components/header.php' ?>
     <section class="hero container">
       <div class="row">
-      <div class="hero__content col-12 col-lg-5 offset-lg-1">
+      <div class="hero__content col-12 col-lg-5 offset-lg-1" data-aos="fade" data-aos-delay="100">
         <div class="hero__title">
           <h2>Make your business powerful with Shade.</h2>
           <p class="text-md text-faded">With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
@@ -27,20 +27,20 @@
           </div>
         </div>
       </div>
-      <div class="hero__img col-8 offset-2 col-lg-5 offset-lg-1 col-xl-5">
+      <div class="hero__img col-8 offset-2 col-lg-5 offset-lg-1 col-xl-5" data-aos="fade" data-aos-delay="150">
         <img src="/src/assets/hero.png" alt="hero-image">
       </div>
       </div>
     </section>
-    <?php include 'components/video-banner.php' ?>
+    <?php include 'components/video-banner.php'?>
         <section class="preview container">
           <div class="row">
-            <div class="preview__title col-12 col-lg-4">
+            <div class="preview__title col-12 col-lg-4" data-aos="fade" data-aos-delay="100">
                 <h4 class="text-bold">Experienced experts are giving advices.</h4>
                 <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
                 <a href="#"><button class="blue-btn">learn how we work</button></a>
             </div>
-            <div class="preview__content col-12 col-lg-8">
+            <div class="preview__content col-12 col-lg-8" data-aos="fade" data-aos-delay="150">
               <div class="preview__img">
                 <img src="./src/assets/preview.svg" alt="preview-img">
               </div>
@@ -64,11 +64,11 @@
     <div class="grey-bg">
       <section class="services container">
         <div class="row">
-          <div class="services__title col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3">
+          <div class="services__title col-12 col-md-8 offset-md-2 col-xl-6 offset-xl-3" data-aos="fade" data-aos-delay="100">
             <h3 class="text-bold">Services we offer for you</h3>
             <p class="text-md text-faded">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
           </div>
-          <div class="services__cards col-12 col-md-6 offset-md-3 col-lg-10 offset-lg-1">
+          <div class="services__cards col-12 col-md-6 offset-md-3 col-lg-10 offset-lg-1" data-aos="fade" data-aos-delay="150">
           <div class="services__item">
             <h5 class="text-lg text-bold">Digital Marketing</h5>
             <img src="./src/assets/services1.svg" alt="services-1">
@@ -102,10 +102,10 @@
     </div>
     <section class="reasons container">
       <div class="row">
-        <div class="reasons_img col-8 offset-2 col-lg-4 offset-lg-1 col-xl-4">
+        <div class="reasons_img col-8 offset-2 col-lg-4 offset-lg-1 col-xl-4" data-aos="fade" data-aos-delay="100">
           <img src="./src/assets/reason-person.png" alt="reason-img">
         </div>
-        <div class="reasons__content col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-1 col-xl-5 offset-xl-2">
+        <div class="reasons__content col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-1 col-xl-5 offset-xl-2" data-aos="fade" data-aos-delay="150">
           <div class="reasons__title">
             <h3 class="text-bold">Reasons you should choose us to grow today.</h3>
             <p class="text-md">We share common trends and strategies for improving your rental income and making sure you stay in high demand.</p>
@@ -132,7 +132,7 @@
       </div>
     </section>
     <section class="previewVideo">
-      <div class="previewVideo__content container">
+      <div class="previewVideo__content container" data-aos="fade" data-aos-delay="100">
         <button class="play-btn"><i class="icon-play"></i></button>
         <div class="previewVideo__title">
         <h3>How do we help you to grow?</h3>
@@ -145,11 +145,11 @@
     </section>
     <section class="reviews container">
       <div class="row">
-        <div class="reviews__title col-12 col-lg-8 offset-lg-2">
+        <div class="reviews__title col-12 col-lg-8 offset-lg-2" data-aos="fade" data-aos-delay="100">
           <h3 class="text-bold">What people say about us</h3>
           <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
         </div>
-        <div class="reviews__cards col-12">
+        <div class="reviews__cards col-12" data-aos="fade" data-aos-delay="150">
           <div class="reviews__item">
             <img src="./src/assets/review1.png" alt="review-1">
             <p class="text-lg">
@@ -186,5 +186,6 @@
     <?php include 'components/quote.php' ?>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/video.js'); ?>
+    <?php viteEntry('src/js/aos.js'); ?>
     </body>
 </html>

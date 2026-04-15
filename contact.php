@@ -15,11 +15,11 @@
         <div class="grey-bg">
            <section class="contact container">
             <div class="row">
-                <div class="contact__title col-6 offset-3">
+                <div class="contact__title col-6 offset-3" data-aos="fade" data-aos-delay="100">
                     <h1 class="text-bold">Contact us</h1>
                     <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
                 </div>
-                <div class="contact__content col-12 col-lg-11">
+                <div class="contact__content col-12 col-lg-11" data-aos="fade" data-aos-delay="150">
                     <div class="contact__card">
                         <i class="icon-phone"></i>
                         <div class="contact__info">
@@ -48,7 +48,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact__formWrapper col-12">
+                <div class="contact__formWrapper col-12" data-aos="fade" data-aos-delay="200">
                     <form class="contact__form" id="form">
                         <div class="contact__fields">
                             <div class="contact__item">
@@ -89,8 +89,8 @@
            </section>
         </div>
         <?php include 'components/footer.php' ?>
-        <?php viteEntry('src/js/main.js'); ?>
         <?php viteEntry('src/js/contact.js'); ?>
+        <?php viteEntry('src/js/aos.js'); ?>
     </main>
 </body>
 </html>

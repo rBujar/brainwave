@@ -14,13 +14,13 @@
     <?php include 'components/header.php' ?>
     <section class="terms container">
         <div class="row">
-            <div class="terms__title col-12 col-lg-8 offset-lg-2">
+            <div class="terms__title col-12 col-lg-8 offset-lg-2" data-aos="fade" data-aos-delay="100">
                 <h1>Terms & Conditions</h1>
                 <p class="text-md text-faded">By accessing and placing an order with UXTheme, you confirm that you are in agreement
                     with and bound by the terms and conditions</p>
             </div>
             <div class="terms__content col-12 col-lg-8 offset-lg-2">
-                <p class="text-md text-faded">
+                <p class="text-md text-faded" data-aos="fade" data-aos-delay="100">
                     By accessing and placing an order with UXTheme, you confirm that you are in agreement with and bound
                     by
                     the terms and conditions contained in the Terms Of Use outlined below. These terms apply to the
@@ -37,13 +37,13 @@
                     responsible
                     for any outcome that may occur during the course of usage of our resources.
                 </p>
-                <div class="terms__license">
+                <div class="terms__license" data-aos="fade" data-aos-delay="100">
                     <h5 class="text-md text-bold">License</h5>
                     <p class="text-md text-faded">By purchasing or downloading resource (“item” or “file”) you are being granted a
                         license to use these files for specific uses under certain conditions. Ownership remains with
                         UXTheme, and you are required to abide by the following licensing terms.</p>
                 </div>
-                <div class="terms__security">
+                <div class="terms__security" data-aos="fade" data-aos-delay="150">
                     <h5 class="text-md text-bold">Security</h5>
                     <ul class="terms__list">
                         <li>
@@ -60,7 +60,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="terms__embContent">
+                <div class="terms__embContent" data-aos="fade" data-aos-delay="200">
                     <h5 class="text-md text-bold">Embedded content from other websites</h5>
                     <p class="text-md text-faded">Articles on this site may include embedded content (e.g. videos, images,
                         articles, etc.). Embedded content from other websites behaves in the exact same way as if the
@@ -70,7 +70,7 @@
                         tracking your interaction with the embedded content if you have an account and are logged in to
                         that website.</p>
                 </div>
-                <div class="terms__changes">
+                <div class="terms__changes" data-aos="fade" data-aos-delay="250">
                     <h5 class="text-md text-bold">Changes about terms</h5>
                     <p class="text-md text-faded">If we change our terms of use we will post those changes on this page. Registered
                         users will be sent an email that outlines changes made to the terms of use.</p>
@@ -79,5 +79,6 @@
         </div>
     </section>
     <?php include 'components/footer.php' ?>
+    <?php viteEntry('src/js/aos.js'); ?>
 </body>
 </html>

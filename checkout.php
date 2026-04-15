@@ -15,14 +15,14 @@
     <div class="grey-bg">
         <section class="checkout container">
             <div class="row">
-                <div class="checkout__title col-8 offset-2">
+                <div class="checkout__title col-8 offset-2" data-aos="fade" data-aos-delay="100">
                     <h1>Checkout</h1>
                     <p class="text-md text-faded">
                         2 Items on your cart
                     </p>
                 </div>
                 <div class="checkout__content col-12">
-                    <div class="checkout__card">
+                    <div class="checkout__card" data-aos="fade" data-aos-delay="100">
                         <div class="checkout__billing">
                             <h5 class="text-lg">Billing Details</h5>
                             <div class="checkout__field">
@@ -110,7 +110,7 @@
                             <button class="blue-btn checkout__button">Proceed to checkout</button>
                         </div>
                     </div>
-                    <div class="checkout__orderDetails">
+                    <div class="checkout__orderDetails" data-aos="fade" data-aos-delay="150">
                         <div class="checkout__details">
                             <div class="checkout__detailsTitle">
                                 <h5 class="text-xs">Order Details</h5>
@@ -161,6 +161,6 @@
         </section>
     </div>
     <?php include 'components/footer.php' ?>
-    <?php viteEntry('src/js/main.js'); ?>
+    <?php viteEntry('src/js/aos.js'); ?>
 </body>
 </html>
