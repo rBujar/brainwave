@@ -3,7 +3,7 @@ const logout = document.querySelector(".header__logout")
 const user = JSON.parse(localStorage.getItem('user'));
 
 if(!user){
-  window.open("http://localhost:8000/login.php", "_self");
+  window.open(`${window.location.origin}/login.php`, "_self");
 }else{
   console.log("You are logged in")
   logout.classList.toggle("active")
