@@ -4,8 +4,8 @@
       </div>
       <div class="header__nav">
       <ul class="header__menu container">
-            <li class="header__item text-xs text-bold"><a href="#">Demos</a></li>
-            <li class="header__item text-xs text-bold"><a href="#">Pages</a></li>
+            <li class="header__item text-xs text-bold"><a href="./pricing.php">Pricing</a></li>
+            <li class="header__item text-xs text-bold"><a href="./job.php">Jobs</a></li>
             <li class="header__item text-xs text-bold"><a href="#">Support</a></li>
             <li class="header__item text-xs text-bold"><a href="./contact.php">Contact</a></li>
         </ul>
