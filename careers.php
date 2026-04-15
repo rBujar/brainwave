@@ -25,8 +25,8 @@
         </div>
     </section>
     <div class="careerHero__video" data-aos="fade" data-aos-delay="100">
-                <button class="play-btn"><i class="icon-play"></i></button>
-                <video class="careerHero__video-bg" muted>
+                <button class="play-btn content"><i class="icon-play"></i></button>
+                <video class="careerHero__video-bg video-bg" muted>
                     <source src="./src/assets/meeting.webm" type="video/webm"> Expand commentComment on line R83
                 </video>
     </div>
@@ -132,5 +132,6 @@
     </div>
     <?php include 'components/footer.php' ?>
     <?php viteEntry('src/js/aos.js'); ?>
+    <?php viteEntry('src/js/video.js'); ?>
 </body>
 </html>

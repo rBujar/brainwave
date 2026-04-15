@@ -7,8 +7,7 @@ loginForm.addEventListener("submit", async (e) => {
   const emailValue = email.value;
   const passwordValue = password.value;
 
-  const API_BASE =
-  window.location.hostname.includes("localhost")
+  const API_BASE = window.location.hostname.includes("localhost")
     ? "http://127.0.0.1:8000"
     : "https://4c48-37-26-70-153.ngrok-free.app";
 

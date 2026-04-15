@@ -56,6 +56,15 @@
         min-height: 100%;
         z-index: -1;
     }
+
+    .content {
+        transition: opacity 0.3s ease-in-out;
+
+        &.active {
+            opacity: 0;
+            visibility: hidden;
+        }
+    }
 }
 
 @media (min-width: $xs) {
@@ -69,7 +78,7 @@
 @media (min-width: $md) {
     .careerHero {
         &__video {
-            height: 70vh;
+            height: 100vh;
 
             button {
                 padding: 15px;

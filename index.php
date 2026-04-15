@@ -132,14 +132,14 @@
       </div>
     </section>
     <section class="previewVideo">
-      <div class="previewVideo__content container" data-aos="fade" data-aos-delay="100">
+      <div class="previewVideo__content content container" data-aos="fade" data-aos-delay="100">
         <button class="play-btn"><i class="icon-play"></i></button>
         <div class="previewVideo__title">
         <h3>How do we help you to grow?</h3>
         <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
         </div>
       </div>
-      <video class="previewVideo__video-bg" muted>
+      <video class="previewVideo__video-bg video-bg" muted>
         <source src="./src/assets/grow-video.webm" type="video/webm"> 
       </video>
     </section>
