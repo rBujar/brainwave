@@ -133,7 +133,7 @@
                         </div>
                     </div>
                     <div class="questions__link col-12 col-lg-8 offset-lg-2" data-aos="fade" data-aos-delay="100">
-                        <p class="text-md">Haven't got your answer? <a href="#">Contact our support now</a></p>
+                        <p class="text-md">Haven't got your answer? <a href="./contact.php">Contact our support now</a></p>
                     </div>
                 </div>
             </section>

@@ -152,6 +152,12 @@ button {
 .white-btn {
     background-color: var(--general-color-white);
     color: var(--general-color-black);
+    transition: background-color 0.2s ease-in-out;
+
+    &:hover{
+        background-color: var(--general-color-black);
+        color: var(--general-color-white);;
+    }
 }
 
 .dark-bg {

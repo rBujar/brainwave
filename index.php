@@ -23,7 +23,7 @@
           <button class="blue-btn">get a free quote</button>
           <div class="hero__link">
             <i class="icon-play"></i>
-            <a href="#" class="text-tiny text-bold">watch how we can help</a>
+            <a href="#video" class="text-tiny text-bold">watch how we can help</a>
           </div>
         </div>
       </div>
@@ -131,7 +131,7 @@
         </div>
       </div>
     </section>
-    <section class="previewVideo">
+    <section class="previewVideo" id="video">
       <div class="previewVideo__content content container" data-aos="fade" data-aos-delay="100">
         <button class="play-btn"><i class="icon-play"></i></button>
         <div class="previewVideo__title">

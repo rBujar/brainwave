@@ -102,7 +102,7 @@
                     <div class="openJobs__info">
                         <h5 class="text-lg">Full Stack Developer</h5>
                         <p class="text-md text-faded">Full Time, Remote</p>
-                    </div><a href="#">
+                    </div><a href="./job.php">
                     <i class="icon-arrow_right"></i></a>
                 </div>
                 <div class="openJobs__item" data-aos="fade" data-aos-delay="250">
