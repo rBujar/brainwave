@@ -1,0 +1,268 @@
+.product {
+  &__swiperContainer {
+    margin-bottom: 30px;
+  }
+
+  &__swiper2 {
+    img {
+      width: 495px;
+      height: auto;
+    }
+  }
+
+  &__swiper {
+    margin-top: 10px;
+
+    .swiper-wrapper {
+      @include position($direction: row, $justify: center, $align: start);
+      gap: 10px;
+    }
+
+    .swiper-wrapper .swiper-slide {
+      transition: transform 0.2s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    .swiper-wrapper .swiper-slide {
+      width: 70px !important;
+      margin-right: 0px !important;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .swiper .swiper-wrapper .swiper-slide {
+    img {
+      border-radius: 10px;
+    }
+  }
+
+  &__info {
+    @include position($align: start);
+
+    h3 {
+      font-size: 36px;
+      line-height: 48px;
+    }
+  }
+
+  &__stars {
+    margin-bottom: 10px;
+
+    i {
+      color: #ffac4d;
+      font-size: 20px;
+    }
+  }
+
+  &__name {
+    margin-bottom: 15px;
+
+    h4 {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: var(--primary-color-blue);
+      transition: color 0.2s ease-in-out;
+
+      &:hover {
+        color: var(--primary-color-hoverBlue);
+      }
+    }
+  }
+
+  &__price {
+    margin-bottom: 15px;
+
+    p {
+      margin-bottom: 10px;
+    }
+
+    p,
+    h4 {
+      color: #7d818d;
+    }
+
+    span {
+      color: var(--general-color-black);
+    }
+  }
+
+  &__list {
+    padding-left: 20px;
+    margin-bottom: 30px;
+
+    li {
+      list-style-type: disc;
+    }
+  }
+
+  &__quantity {
+    @include position($direction: row);
+    margin-bottom: 30px;
+
+    p {
+      margin-right: 15px;
+    }
+
+    button {
+      border: none;
+      outline: none;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      text-align: center;
+
+      i {
+        &::before {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  &__input {
+    max-width: 50px;
+    width: 50px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 8px;
+    border: 2px solid rgba(160, 160, 160, 0.2);
+    outline: none;
+    text-align: center;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  &__buy {
+    @include position($direction: row);
+    gap: 30px;
+
+    button {
+      max-width: 155px;
+      padding: 15px 45px;
+    }
+
+    a {
+      transition:
+        opacity 0,
+        2s ease-in-out;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+
+  &__details {
+    margin-top: 65px;
+  }
+
+  &__content {
+    @include position($direction: row, $justify: space-between);
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+  }
+
+  &__title {
+    transition: all 0.2s ease-in-out;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    max-height: 62px;
+    cursor: pointer;
+
+    &:hover {
+      opacity: 0.7;
+    }
+
+    &.active {
+      color: var(--primary-color-blue);
+      border-bottom: 1px solid var(--primary-color-blue);
+    }
+  }
+
+  &__item {
+    display: none;
+
+    &.active {
+      @include position($align: start, $justify: start);
+      gap: 35px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+  }
+}
+
+@media (min-width: $xs) {
+  .product {
+    &__prodPreview {
+      @include position($direction: row, $justify: start);
+    }
+  }
+}
+
+@media (min-width: $sm) {
+  .product {
+    &__content {
+      justify-content: start;
+      gap: 120px;
+    }
+
+    &__swiperContainer {
+      @include position($direction: row, $justify: center, $align: start);
+      gap: 10px;
+    }
+
+    &__swiper2 {
+      order: 2;
+
+      .swiper-slide-active {
+        margin-right: 0px !important;
+      }
+    }
+
+    &__swiper {
+      order: 1;
+      width: 50%;
+      margin-top: 0px;
+
+      .swiper-wrapper {
+        @include position($justify: start, $align: start);
+        height: initial;
+        gap: 10px;
+      }
+
+      .swiper-wrapper .swiper-slide {
+        padding-left: 5px;
+      }
+    }
+  }
+}
+
+@media (min-width: $md) {
+  .product {
+    &__swiperContainer {
+      margin-bottom: 0px;
+    }
+
+    &__swiper{
+      width: 70%;
+    }
+  }
+}
+
+@media (min-width: $lg){
+  .product{
+    &__swiper{
+      width: 60%;
+    }
+  }
+}
