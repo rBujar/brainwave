@@ -13,7 +13,7 @@ loginForm.addEventListener("submit", async (e) => {
     : "https://4c48-37-26-70-153.ngrok-free.app";
 
   try {
-    const response = await fetch(`"${API_BASE}/api/login`, {
+    const response = await fetch(`${API_BASE}/api/login`, {
       method: "POST",
       body: JSON.stringify({
         email: emailValue,
