@@ -24,6 +24,5 @@ const response = await fetch("http://127.0.0.1:8000/api/logout", {
     localStorage.removeItem("user");
     window.open("http://localhost:8000/login.php", "_self");
   }
-
 }
 ) 
