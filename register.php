@@ -21,7 +21,7 @@
             </div>
             <div class="form__content col-12">
                 <div class="form__wrapper">
-                    <form class="form__card">
+                    <form class="form__card form__registerCard" method="POST">
                         <div class="form__field">
                             <label for="name" class="text-xs text-bold" >First & Last Name</label>
                             <input type="text" id="name" name="name" placeholder="i.e. John Doe">
@@ -38,9 +38,9 @@
                             <span class="error passError"></span>
                         </div>
                         <div class="form__field">
-                            <label for="confirmPass" class="text-xs text-bold" >Confirm password</label>
-                            <input type="password" id="confirmPass" name="confirmPass" placeholder="********">
-                            <span class="error passError"></span>
+                            <label for="password_confirmation" class="text-xs text-bold" >Confirm password</label>
+                            <input type="password" id="password_confirmation" name="password_confirmation" placeholder="********">
+                            <span class="error confirmError"></span>
                         </div>
                         <div class="form__field form__field--check">
                             <input type="checkbox" name="checkbox" id="checkbox">
@@ -56,7 +56,7 @@
         </section>
         </div>
         <?php include 'components/footer.php' ?>
-        <?php viteEntry('src/js/main.js'); ?>
+        <?php viteEntry('src/js/register.js'); ?>
         </main>
 </body>
 </html>

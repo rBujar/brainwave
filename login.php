@@ -21,7 +21,7 @@
             </div>
             <div class="form__content col-12">
                 <div class="form__wrapper">
-                    <form class="form__card">
+                    <form class="form__card form__loginCard" method="POST">
                         <div class="form__field">
                             <label for="email" class="text-xs text-bold" >Email</label>
                             <input type="email" id="email" name="email" placeholder="i.e. john@email.com">
@@ -49,7 +49,7 @@
         </section>
         </div>
         <?php include 'components/footer.php' ?>
-        <?php viteEntry('src/js/main.js'); ?>
+        <?php viteEntry('src/js/login.js'); ?>
         </main>
 </body>
 </html>

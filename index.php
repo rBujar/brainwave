@@ -185,7 +185,6 @@
     </section>
     <?php include 'components/quote.php' ?>
     <?php include 'components/footer.php' ?>
-    <?php viteEntry('src/js/main.js'); ?>
     <?php viteEntry('src/js/video.js'); ?>
     </body>
 </html>

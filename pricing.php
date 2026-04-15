@@ -139,7 +139,6 @@
             </section>
         </div>
         <?php include 'components/footer.php' ?>
-        <?php viteEntry('src/js/main.js'); ?>
         <?php viteEntry('src/js/pricing.js'); ?>
     </main>
 </body>
