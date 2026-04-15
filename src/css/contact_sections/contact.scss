@@ -54,7 +54,7 @@
     }
 
     &__form {
-        @include position($align: start);
+        @include position($align: center);
         gap: 30px;
 
         label {
@@ -113,6 +113,14 @@
     position: absolute;
     bottom: -25px;
     left: 10px;
+}
+
+@media (min-width: $sm) {
+    .contact{
+        &__form{
+            align-items: start;
+        }
+    }
 }
 
 @media (min-width: $md) {

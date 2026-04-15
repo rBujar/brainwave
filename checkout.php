@@ -86,8 +86,8 @@
 
                             <div class="checkout__fieldGroup">
                                 <div class="checkout__field">
-                                    <label for=expDate" class="text-xs text-bold">Expire Date</label>
-                                    <input type="text" id=expDate" name=expDate" placeholder=Month/Year">
+                                    <label for="expDate" class="text-xs text-bold">Expire Date</label>
+                                    <input type="text" id="expDate" name="expDate" placeholder="Month/Year">
                                     <span class="error cityError"></span>
                                 </div>
                                 <div class="checkout__field">
@@ -106,7 +106,7 @@
                         </div>
                         <div class="checkout__proceed">
                             <p class="text-xs text-faded checkout__link">By clicking the button you agree the <a
-                                    href="./term.php" target="_blank">Terms and Conditions</a></p>
+                                    href="./terms.php">Terms and Conditions</a></p>
                             <button class="blue-btn checkout__button">Proceed to checkout</button>
                         </div>
                     </div>

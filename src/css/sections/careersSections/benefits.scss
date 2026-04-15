@@ -1,59 +1,77 @@
 .benefits {
-    &__title {
-        text-align: center;
-        margin-bottom: 45px;
+  &__title {
+    text-align: center;
+    margin-bottom: 45px;
 
-        h2 {
-            margin-bottom: 30px;
-        }
+    h2 {
+      margin-bottom: 30px;
     }
+  }
 
-    &__cards {
-        @include position($align: start);
-        gap: 50px;
+  &__cards {
+    @include position();
+    gap: 50px;
 
-        &:last-child {
-            margin-top: 50px;
-        }
+    &:last-child {
+      margin-top: 50px;
     }
+  }
 
-    &__item {
-        @include position($direction: row, $align: start);
-        gap: 5px;
+  &__item {
+    @include position($direction: row, $align: start);
+    gap: 5px;
 
-        i {
-            font-size: 30px;
-        }
+    i {
+      font-size: 30px;
     }
+  }
 
-    &__info {
-        max-width: 260px;
+  &__info {
+    max-width: 260px;
 
-        h4 {
-            margin-bottom: 25px;
-        }
+    h4 {
+      margin-bottom: 25px;
     }
+  }
 }
 
 @media (min-width: $sm) {
-    .benefits {
-        &__cards {
-            align-items: center;
-        }
+  .benefits {
+    &__cards {
+      @include position($direction: row, $align: start);
     }
+
+    &__info {
+      h5 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
 }
 
 @media (min-width: $md) {
-    .benefits {
-        &__title {
-            margin-bottom: 90px;
-        }
-
-        &__cards {
-            @include position($direction: row,
-                $align: start,
-                $justify: space-between);
-            gap: initial;
-        }
+  .benefits {
+    &__title {
+      margin-bottom: 90px;
     }
+
+    &__cards {
+      justify-content: space-between;
+      gap: initial;
+    }
+
+    &__info {
+      h5 {
+        font-size: 22px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+    }
+  }
 }

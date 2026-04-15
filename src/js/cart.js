@@ -1,29 +1,26 @@
-const minus = document.querySelectorAll(".minus-btn");
-const plus = document.querySelectorAll(".plus-btn");
+const minus = document.querySelector(".minus-btn");
+const plus = document.querySelector(".plus-btn");
+let inputNumber = parseInt(document.querySelector(".input-number").innerHTML);
 const deleteCard = document.querySelectorAll(".cart__remove");
+const card = document.querySelectorAll(".cart__card")
 
-plus.forEach((p) => {
-    p.addEventListener("click", () => {
-        const input = p.parentElement.querySelector(".input-number");
-
-        let inputNumber = parseInt(input.innerHTML);
-        inputNumber++;
-        input.innerHTML = inputNumber;
-    });
+plus.addEventListener("click", () => {
+  inputNumber++;
+  document.querySelector(".input-number").innerHTML = inputNumber;
 });
 
-minus.forEach((m) => {
-    m.addEventListener("click", () => {
-        const input = m.parentElement.querySelector(".input-number");
-        let inputNumber = parseInt(input.innerHTML);
-        if(inputNumber > 0 ) inputNumber--;
-        input.innerHTML = inputNumber;
-    });
+minus.addEventListener("click", () => {
+if(inputNumber > 0) inputNumber--;
+  document.querySelector(".input-number").innerHTML = inputNumber;
 });
 
-deleteCard.forEach((cross) => {
-    cross.addEventListener("click", () => {
-        cross.parentElement.style.display = "none"
-    })
-})
 
+deleteCard.forEach((cross, i) => {
+  cross.addEventListener("click", () => {
+    deleteCard.forEach((x, j) => {
+      if (j == i) {
+        card[j].style.display = "none";
+      }
+    });
+  });
+});
