@@ -27,7 +27,7 @@
                     <li><a href="./pricing.php" class="text-sm">Pricing</a></li>
                     <li><a href="./product.php" class="text-sm">Product</a></li>
                     <li><a href="./cart.php" class="text-sm">Cart</a></li>
-                    <li><a href="#" class="text-sm">Support</a></li>
+                    <li><a href="./checkout.php" class="text-sm">Checkout</a></li>
                 </ul>
             </div>
             <div class="footer__item">
