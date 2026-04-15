@@ -9,7 +9,8 @@ export default defineConfig({
     rollupOptions: {
       input: {
         main: resolve(__dirname, 'src/js/main.js'),
-        main: resolve(__dirname, 'src/js/logout.js'),
+        logout: resolve(__dirname, 'src/js/logout.js'),
+        login: resolve(__dirname, 'src/js/login.js'),
         style: resolve(__dirname, 'src/css/style.scss'),
       },
     },

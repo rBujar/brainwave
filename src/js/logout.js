@@ -6,8 +6,6 @@ const isNetlify = window.location.hostname.includes("netlify");
 
 const loginPage = isNetlify ? "/login.html" : "/login.php";
 
-
-
 if(!user){
     window.location.href = loginPage;
 }else{

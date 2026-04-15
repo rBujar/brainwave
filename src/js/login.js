@@ -41,7 +41,7 @@ loginForm.addEventListener("submit", async (e) => {
     } else {
       localStorage.setItem("user", JSON.stringify(data));
 
-      window.open("http://localhost:8000/", "_self");
+      window.location.href = "/";
     }
   } catch (err) {
     console.log(err);
