@@ -7,7 +7,7 @@
             <li class="header__item text-xs text-bold"><a href="#">Demos</a></li>
             <li class="header__item text-xs text-bold"><a href="#">Pages</a></li>
             <li class="header__item text-xs text-bold"><a href="#">Support</a></li>
-            <li class="header__item text-xs text-bold"><a href="#">Contact</a></li>
+            <li class="header__item text-xs text-bold"><a href="./contact.php">Contact</a></li>
         </ul>
         <div class="header__button container">
         <button class="blue-btn">get a free quote</button>

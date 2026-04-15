@@ -15,7 +15,7 @@
                 <p class="text-xs">Company</p>
                 <ul class="footer__links">
                     <li><a href="#" class="text-sm">About us</a></li>
-                    <li><a href="#" class="text-sm">Contact us</a></li>
+                    <li><a href="./contact.php" class="text-sm">Contact us</a></li>
                     <li><a href="../careers.php" class="text-sm">Careers</a></li>
                     <li><a href="#" class="text-sm">Press</a></li>
                 </ul>
