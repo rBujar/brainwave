@@ -1,12 +1,12 @@
-<?php require_once '../vite-helper.php'; ?>
+<?php require_once 'vite-helper.php'; ?>
 <!doctype html>
 <html lang="en">
 <head>
-    <?php include '../components/head.php'?>
+    <?php include 'components/head.php'?>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
 </head>
 <body>
-    <?php include '../components/header.php' ?>
+    <?php include 'components/header.php' ?>
     <section class="product container">
         <div class="row">
             <div class="product__shop col-12">
@@ -14,21 +14,21 @@
                     <div class="product__swiperContainer col-12 col-lg-6" data-aos="fade" data-aos-delay="100">
                         <div class="swiper mySwiper2 product__swiper2">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide"><img src="../src/assets/product/airpods-1.jpg" alt=""></div>
-                                <div class="swiper-slide"><img src="../src/assets/product/airpods-2.jpg" alt=""></div>
-                                <div class="swiper-slide"><img src="../src/assets/product/airpods-3.jpg" alt=""></div>
-                                <div class="swiper-slide"><img src="../src/assets/product/airpods-4.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="src/assets/product/lamp-1.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="src/assets/product/lamp-2.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="src/assets/product/lamp-3.jpg" alt=""></div>
+                                <div class="swiper-slide"><img src="src/assets/product/lamp-4.jpg" alt=""></div>
                             </div>
                         </div>
                         <div class="swiper mySwiper product__swiper">
                             <div class="swiper-wrapper">
-                                <div class="swiper-slide product__smallSlide"><img src="../src/assets/product/miniAirpods-1.jpg"
+                                <div class="swiper-slide product__smallSlide"><img src="src/assets/product/miniLamp-1.jpg"
                                         alt=""></div>
-                                <div class="swiper-slide product__smallSlide"><img src="../src/assets/product/miniAirpods-2.jpg"
+                                <div class="swiper-slide product__smallSlide"><img src="src/assets/product/miniLamp-2.jpg"
                                         alt=""></div>
-                                <div class="swiper-slide product__smallSlide"><img src="../src/assets/product/miniAirpods-3.jpg"
+                                <div class="swiper-slide product__smallSlide"><img src="src/assets/product/miniLamp-3.jpg"
                                         alt=""></div>
-                                <div class="swiper-slide product__smallSlide"><img src="../src/assets/product/miniAirpods-4.jpg"
+                                <div class="swiper-slide product__smallSlide"><img src="src/assets/product/miniLamp-4.jpg"
                                         alt=""></div>
                             </div>
                         </div>
@@ -42,25 +42,25 @@
                             <i class="icon-half_star"></i>
                         </div>
                         <div class="product__name">
-                            <h3>Apple AirPods with Wired Charging Case</h3>
-                            <p class="text-md">by <a href="#">Apple</a></p>
+                            <h3>Modern Wooden Adjustable Desk Lamp</h3>
+                            <p class="text-md">by <a href="#">Nordic Home.</a></p>
                         </div>
                         <div class="product__price">
-                            <p class="text-md">List Price: $90</p>
-                            <h4>Price: <span>$70</span></h4>
+                            <p class="text-md">List Price: $95</p>
+                            <h4>Price: <span>$68</span></h4>
                         </div>
                         <ul class="product__list">
                             <li>
-                                <p class="text-sm">Active noise cancellation for immersive sound</p>
+                                <p class="text-sm">Adjustable wooden arm for flexible lighting angles</p>
                             </li>
                             <li>
-                                <p class="text-sm">Transparency mode for hearing and connecting</p>
+                                <p class="text-sm">Minimalist Scandinavian-inspired design</p>
                             </li>
                             <li>
-                                <p class="text-sm">Three sizes of soft, tapered silicone tips</p>
+                                <p class="text-sm">Durable metal lampshade for focused light</p>
                             </li>
                             <li>
-                                <p class="text-sm">Sweat and water resistant</p>
+                                <p class="text-sm">Perfect for desks, study areas, and bedside tables</p>
                             </li>
                         </ul>
                         <div class="product__quantity">
@@ -70,7 +70,7 @@
                             <button class="plus-btn" type="button"><i class="icon-plus"></i></button>
                         </div>
                         <div class="product__buy">
-                            <a href="../checkout.php"><button class="blue-btn">Buy now</button></a>
+                            <a href="checkout.php"><button class="blue-btn">Buy now</button></a>
                             <p class="text-md text-bold">Add to cart</p>
                         </div>
                     </div>
@@ -131,9 +131,9 @@
                 <div class="related__title col-12">
                     <h3>Related Products</h3>
                 </div>
-                <div class="related__cards col-12">
+                 <div class="related__cards col-12">
                     <a href="./shoe.php"><div class="related__item">
-                        <img src="../src/assets/related-1.jpg" alt="related product 1">
+                        <img src="src/assets/related-1.jpg" alt="related product 1">
                         <div class="related__info">
                             <div class="related__price">
                                 <p class="text-lg text-bold">$120</p>
@@ -150,7 +150,7 @@
                         </div>
                     </div></a>
                     <a href="./airmax.php"><div class="related__item">
-                        <img src="../src/assets/related-2.jpg" alt="related product 2">
+                        <img src="src/assets/related-2.jpg" alt="related product 2">
                         <div class="related__info">
                             <div class="related__price">
                                 <p class="text-lg text-bold">$170</p>
@@ -166,8 +166,8 @@
                             </div>
                         </div>
                     </div></a>
-                    <a href="./lamp.php"><div class="related__item">
-                        <img src="../src/assets/related-3.jpg" alt="related product 3">
+                    <a href="#"><div class="related__item">
+                        <img src="src/assets/related-3.jpg" alt="related product 3">
                         <div class="related__info">
                             <div class="related__price">
                                 <p class="text-lg text-bold">$640</p>
@@ -183,8 +183,8 @@
                             </div>
                         </div>
                     </div></a>
-                    <a href="#"><div class="related__item">
-                        <img src="../src/assets/related-4.jpg" alt="related product 4">
+                    <a href="./airpods.php"><div class="related__item">
+                        <img src="src/assets/related-4.jpg" alt="related product 4">
                         <div class="related__info">
                             <div class="related__price">
                                 <p class="text-lg text-bold">$640</p>
@@ -204,9 +204,9 @@
             </div>
         </section>
     </div>
-    <?php include '../components/footer.php' ?>
-    <?php viteEntry('../src/js/product.js'); ?>
-    <?php viteEntry('../src/js/aos.js'); ?>
+    <?php include 'components/footer.php' ?>
+    <?php viteEntry('src/js/product.js'); ?>
+    <?php viteEntry('src/js/aos.js'); ?>
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
 </body>
 </html>
