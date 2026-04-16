@@ -1,6 +1,9 @@
 const minus = document.querySelector(".minus-btn");
 const plus = document.querySelector(".plus-btn");
 let inputNumber = parseInt(document.querySelector(".input-number").innerHTML);
+const button = document.querySelectorAll(".product__detailBtn")
+const detailItem = document.querySelectorAll(".product__item")
+const smallProduct = document.querySelectorAll(".product__smallSlide")
 
 plus.addEventListener("click", () => {
   inputNumber++;
@@ -26,3 +29,16 @@ var swiper = new Swiper(".mySwiper", {
         swiper: swiper,
       },
     });
+
+button.forEach((btn, i) => {
+  btn.addEventListener("click", () => {
+    button.forEach((b, j) => {
+      if (j !== i) {
+        b.classList.remove("active");
+        detailItem[j].classList.remove("active");
+      }
+    });
+    btn.classList.toggle("active");
+    detailItem[i].classList.toggle("active");
+  });
+});

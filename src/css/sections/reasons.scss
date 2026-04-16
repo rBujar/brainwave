@@ -1,65 +1,63 @@
 .reasons {
-    &__content {
-        @include position($align: start);
-        gap: 30px;
+  &__content {
+    @include position($align: start);
+    gap: 30px;
+  }
+
+  &__title {
+    text-align: center;
+    margin-top: 30px;
+
+    h3 {
+      margin-bottom: 20px;
     }
+  }
 
-    &__title {
-        text-align: center;
-        margin-top: 30px;
+  &__features {
+    @include position($align: start);
+    margin-left: 5px;
+    gap: 30px;
+    width: 100%;
+  }
 
-        h3 {
-            margin-bottom: 20px;
-        }
+  &__item {
+    @include position($direction: row);
+    gap: 15px;
 
-        p {
-            opacity: 0.7;
-        }
+    i {
+      color: var(--primary-color-blue);
     }
-
-    &__features {
-        @include position($align: start);
-        gap: 30px;
-    }
-
-    &__item {
-        @include position($direction: row);
-        gap: 15px;
-
-        i {
-            color: var(--primary-color-blue);
-        }
-    }
+  }
 }
 
 @media (min-width: $sm) {
-    .reasons {
-        &__features {
-            @include position($direction: row, $justify: start);
-            flex-wrap: wrap;
-        }
-
-        &__item {
-            justify-content: start;
-
-            &:nth-child(3) {
-                min-width: 175px;
-            }
-        }
+  .reasons {
+    &__features {
+      @include position($direction: row, $justify: start);
+      flex-wrap: wrap;
     }
+
+    &__item {
+      justify-content: start;
+
+      &:nth-child(3) {
+        min-width: 175px;
+      }
+    }
+  }
 }
 
 @media (min-width: $md) {
-    .reasons {
-        padding-bottom: 0px;
+  .reasons {
+    padding-bottom: 0px;
 
-        &__content {
-            align-items: start;
-        }
-
-        &__title {
-            text-align: left;
-            margin-top: 0px;
-        }
+    &__content {
+      align-items: start;
     }
+
+    &__title {
+      text-align: left;
+      margin-top: 0px;
+    }
+  }
 }

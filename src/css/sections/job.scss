@@ -1,66 +1,65 @@
 .job {
-    
-    p,
+  p,
+  li {
+    opacity: 0.7;
+  }
+
+  &__title {
+    text-align: center;
+    margin-bottom: 50px;
+
+    h1 {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__intro {
+    margin-bottom: 60px;
+
+    p {
+      &:nth-of-type(2) {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+  &__desc {
+    margin-bottom: 35px;
+
+    h4 {
+      margin-bottom: 30px;
+    }
+  }
+
+  &__skills {
+    margin-bottom: 45px;
+
+    h4 {
+      margin-bottom: 15px;
+    }
+  }
+
+  &__list {
+    @include position($align: start, $justify: start);
+    gap: 30px;
+    padding-left: 15px;
+
     li {
-        opacity: 0.7;
+      list-style-type: disc;
     }
+  }
 
-    &__title {
-        text-align: center;
-        margin-bottom: 50px;
+  &__apply {
+    margin-bottom: 50px;
 
-        h1 {
-            margin-bottom: 30px;
-        }
+    h4 {
+      margin-bottom: 30px;
     }
+  }
 
-    &__intro {
-        margin-bottom: 60px;
-
-        p {
-            &:nth-of-type(2) {
-                margin-top: 50px;
-                margin-bottom: 50px;
-            }
-        }
-    }
-
-    &__desc {
-        margin-bottom: 35px;
-
-        h4 {
-            margin-bottom: 30px;
-        }
-    }
-
-    &__skills {
-        margin-bottom: 45px;
-
-        h4 {
-            margin-bottom: 15px;
-        }
-    }
-
-    &__list {
-        @include position($align: start, $justify: start);
-        gap: 30px;
-        padding-left: 15px;
-
-        li {
-            list-style-type: disc;
-        }
-    }
-
-    &__apply {
-        margin-bottom: 50px;
-
-        h4 {
-            margin-bottom: 30px;
-        }
-    }
-
-    button {
-        max-width: 210px;
-        padding: 20px 25px;
-    }
+  button {
+    max-width: 210px;
+    padding: 20px 25px;
+  }
 }

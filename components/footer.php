@@ -15,7 +15,7 @@
                 <p class="text-xs">Company</p>
                 <ul class="footer__links">
                     <li><a href="#" class="text-sm">About us</a></li>
-                    <li><a href="./contact.php" class="text-sm">Contact us</a></li>
+                    <li><a href="../contact.php" class="text-sm">Contact us</a></li>
                     <li><a href="../careers.php" class="text-sm">Careers</a></li>
                     <li><a href="#" class="text-sm">Press</a></li>
                 </ul>
@@ -24,10 +24,10 @@
                 <p class="text-xs">Product</p>
                 <ul class="footer__links">
                     <li><a href="#" class="text-sm">Features</a></li>
-                    <li><a href="./pricing.php" class="text-sm">Pricing</a></li>
-                    <li><a href="./product.php" class="text-sm">Product</a></li>
-                    <li><a href="./cart.php" class="text-sm">Cart</a></li>
-                    <li><a href="./checkout.php" class="text-sm">Checkout</a></li>
+                    <li><a href="../pricing.php" class="text-sm">Pricing</a></li>
+                    <li><a href="../product.php" class="text-sm">Product</a></li>
+                    <li><a href="../cart.php" class="text-sm">Cart</a></li>
+                    <li><a href="../checkout.php" class="text-sm">Checkout</a></li>
                 </ul>
             </div>
             <div class="footer__item">

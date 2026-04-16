@@ -1,6 +1,7 @@
 .product {
   &__swiperContainer {
     margin-bottom: 30px;
+    max-height: 505px;
   }
 
   &__swiper2 {
@@ -19,27 +20,27 @@
     }
 
     .swiper-wrapper .swiper-slide {
-      transition: transform 0.2s ease-in-out;
+      width: 65px !important;
+      margin-right: 0px !important;
       cursor: pointer;
 
-      &:hover {
-        transform: scale(1.1);
-      }
-    }
+      transition: width 0.2s ease-in-out;
 
-    .swiper-wrapper .swiper-slide {
-      width: 70px !important;
-      margin-right: 0px !important;
+      &.swiper-slide-thumb-active {
+        border: 1px solid var(--general-color-black);
+        border-radius: 10px;
+        width: 70px !important;
+      }
+
+      &.not-active {
+        transform: scale(0.9);
+        filter: blur(1px);
+      }
 
       img {
         width: 100%;
+        border-radius: 10px;
       }
-    }
-  }
-
-  .swiper .swiper-wrapper .swiper-slide {
-    img {
-      border-radius: 10px;
     }
   }
 
@@ -172,12 +173,13 @@
     border-bottom: 1px solid rgba(160, 160, 160, 0.2);
   }
 
-  &__title {
-    transition: all 0.2s ease-in-out;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    max-height: 62px;
+  &__detailBtn {
+    background-color: transparent;
     cursor: pointer;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 15px;
+    border-radius: 0px;
 
     &:hover {
       opacity: 0.7;
@@ -189,14 +191,16 @@
     }
   }
 
+  &__detailInfo {
+    padding-top: 40px;
+  }
+
   &__item {
     display: none;
 
     &.active {
       @include position($align: start, $justify: start);
       gap: 35px;
-      padding-top: 40px;
-      padding-bottom: 40px;
     }
   }
 }
@@ -239,10 +243,6 @@
         height: initial;
         gap: 10px;
       }
-
-      .swiper-wrapper .swiper-slide {
-        padding-left: 5px;
-      }
     }
   }
 }
@@ -253,15 +253,15 @@
       margin-bottom: 0px;
     }
 
-    &__swiper{
+    &__swiper {
       width: 70%;
     }
   }
 }
 
-@media (min-width: $lg){
-  .product{
-    &__swiper{
+@media (min-width: $lg) {
+  .product {
+    &__swiper {
       width: 60%;
     }
   }

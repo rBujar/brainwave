@@ -1,17 +1,9 @@
 <?php require_once 'vite-helper.php'; ?>
 <!doctype html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <?php viteClient(); ?>
-    <?php viteEntry('src/css/style.scss'); ?>
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo viteAsset('src/assets/favicon.ico'); ?>" />
-    <link rel="shortcut icon" type="image/x-icon" href="src/assets/favicon.ico" />
-    <title>Brainwave</title>
+<?php include 'components/head.php'?>
 </head>
-
 <body>
     <?php include 'components/header.php' ?>
     <section class="careerHero container">
@@ -95,35 +87,35 @@
                     <div class="openJobs__info">
                         <h5 class="text-lg">Account Manager</h5>
                         <p class="text-md text-faded">Full Time, New York</p>
-                    </div><a href="#">
+                    </div><a href="./job/accountManager.php">
                     <i class="icon-arrow_right"></i></a>
                 </div>
                 <div class="openJobs__item" data-aos="fade" data-aos-delay="200">
                     <div class="openJobs__info">
                         <h5 class="text-lg">Full Stack Developer</h5>
                         <p class="text-md text-faded">Full Time, Remote</p>
-                    </div><a href="./job.php">
+                    </div><a href="./job/frontend.php">
                     <i class="icon-arrow_right"></i></a>
                 </div>
                 <div class="openJobs__item" data-aos="fade" data-aos-delay="250">
                     <div class="openJobs__info">
                         <h5 class="text-lg">Senior Project Manager</h5>
                         <p class="text-md text-faded">Full Time, New York</p>
-                    </div><a href="#">
+                    </div><a href="./job/projectManager.php">
                     <i class="icon-arrow_right"></i></a>
                 </div>
                 <div class="openJobs__item" data-aos="fade" data-aos-delay="300">
                     <div class="openJobs__info">
                         <h5 class="text-lg">UX Designer</h5>
                         <p class="text-md text-faded">Full Time, Remote</p>
-                    </div><a href="#">
+                    </div><a href="./job/uxDesigner.php">
                     <i class="icon-arrow_right"></i></a>
                 </div>
                 <div class="openJobs__item" data-aos="fade" data-aos-delay="350">
                     <div class="openJobs__info">
                         <h5 class="text-lg">Software Engineer</h5>
                         <p class="text-md text-faded">Full Time, Remote</p>
-                    </div><a href="#">
+                    </div><a href="./job/softwareEngineer.php">
                     <i class="icon-arrow_right"></i></a>
                 </div>
             </div>

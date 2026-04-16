@@ -2,12 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <?php viteClient(); ?>
-    <?php viteEntry('src/css/style.scss'); ?>
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo viteAsset('src/assets/favicon.ico'); ?>" />
-    <title>Brainwave</title>
+    <?php include 'components/head.php'?>
 </head>
 <body>
     <main>
@@ -17,7 +12,7 @@
             <div class="row">
             <div class="form__title col-12">
                 <h1 class="text-bold">Sign up</h1>
-                <p class="text-md">To get started, you need to sign up here.</p>
+                <p class="text-md text-faded">To get started, you need to sign up here.</p>
             </div>
             <div class="form__content col-12">
                 <div class="form__wrapper">

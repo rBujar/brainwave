@@ -2,14 +2,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <?php viteClient(); ?>
-  <?php viteEntry('src/css/style.scss'); ?>
-  <link rel="shortcut icon" type="image/x-icon" href="<?php echo viteAsset('src/assets/favicon.ico'); ?>" />
-    <link rel="shortcut icon" type="image/x-icon" href="src/assets/favicon.ico" />
-    <title>Brainwave</title>
-  </head>
+<?php include 'components/head.php'?>
+</head>
   <body>
     <?php include 'components/header.php' ?>
     <section class="hero container">
@@ -37,7 +31,7 @@
           <div class="row">
             <div class="preview__title col-12 col-lg-4" data-aos="fade" data-aos-delay="100">
                 <h4 class="text-bold">Experienced experts are giving advices.</h4>
-                <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+                <p class="text-md text-faded">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
                 <a href="#"><button class="blue-btn">learn how we work</button></a>
             </div>
             <div class="preview__content col-12 col-lg-8" data-aos="fade" data-aos-delay="150">
@@ -47,15 +41,15 @@
               <div class="preview__stats">
                 <div class="preview__item">
                   <h4 class="text-bold">1M+</h4>
-                  <p class="text-md">Customers visit Albino every month to get their service done.</p>
+                  <p class="text-md text-faded">Customers visit Albino every month to get their service done.</p>
                 </div>
                 <div class="preview__item">
                   <h4 class="text-bold">92%</h4>
-                  <p class="text-md">Satisfaction rate comes from our awesome customers.</p>
+                  <p class="text-md text-faded">Satisfaction rate comes from our awesome customers.</p>
                 </div>
                 <div class="preview__item">
                   <h4 class="text-bold">49/5.0</h4>
-                  <p class="text-md">Average customer ratings we have got all over internet.</p>
+                  <p class="text-md text-faded">Average customer ratings we have got all over internet.</p>
                 </div>
               </div>
             </div>
@@ -102,13 +96,13 @@
     </div>
     <section class="reasons container">
       <div class="row">
-        <div class="reasons_img col-8 offset-2 col-lg-4 offset-lg-1 col-xl-4" data-aos="fade" data-aos-delay="100">
+        <div class="reasons_img col-8 offset-2 col-lg-4 offset-lg-1" data-aos="fade" data-aos-delay="100">
           <img src="./src/assets/reason-person.png" alt="reason-img">
         </div>
         <div class="reasons__content col-12 col-md-8 offset-md-2 col-lg-6 offset-lg-1 col-xl-5 offset-xl-2" data-aos="fade" data-aos-delay="150">
           <div class="reasons__title">
             <h3 class="text-bold">Reasons you should choose us to grow today.</h3>
-            <p class="text-md">We share common trends and strategies for improving your rental income and making sure you stay in high demand.</p>
+            <p class="text-md text-faded">We share common trends and strategies for improving your rental income and making sure you stay in high demand.</p>
           </div>
           <div class="reasons__features">
             <div class="reasons__item">
@@ -147,7 +141,7 @@
       <div class="row">
         <div class="reviews__title col-12 col-lg-8 offset-lg-2" data-aos="fade" data-aos-delay="100">
           <h3 class="text-bold">What people say about us</h3>
-          <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
+          <p class="text-md text-faded">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
         </div>
         <div class="reviews__cards col-12" data-aos="fade" data-aos-delay="150">
           <div class="reviews__item">

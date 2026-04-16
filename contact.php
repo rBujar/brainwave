@@ -2,12 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <?php viteClient(); ?>
-    <?php viteEntry('src/css/style.scss'); ?>
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo viteAsset('src/assets/favicon.ico'); ?>" />
-    <title>Brainwave</title>
+<?php include 'components/head.php'?>
 </head>
 <body>
     <main>
@@ -15,16 +10,16 @@
         <div class="grey-bg">
            <section class="contact container">
             <div class="row">
-                <div class="contact__title col-6 offset-3" data-aos="fade" data-aos-delay="100">
+                <div class="contact__title col-12" data-aos="fade" data-aos-delay="100">
                     <h1 class="text-bold">Contact us</h1>
-                    <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
+                    <p class="text-md text-faded">With lots of unique blocks, you can easily build a page without coding. Build your next consultancy website within few minutes.</p>
                 </div>
                 <div class="contact__content col-12 col-lg-11" data-aos="fade" data-aos-delay="150">
                     <div class="contact__card">
                         <i class="icon-phone"></i>
                         <div class="contact__info">
                             <p class="text-xl text-bold">Call us</p>
-                            <a href="tel:19403942948" class="text-lg">
+                            <a href="tel:19403942948" class="text-lg text-faded">
                                 +1-940-394-2948</a>
                             <a href="tel:+13893853807" class="text-lg">+1-389-385-3807</a>
                         </div>
@@ -33,7 +28,7 @@
                         <i class="icon-mail"></i>
                         <div class="contact__info">
                             <p class="text-xl text-bold">Call us</p>
-                            <a href="mail:support@brainwave.io" class="text-lg">
+                            <a href="mail:support@brainwave.io" class="text-lg text-faded">
                                 mail:support@brainwave.io8</a>
                             <a href="mail:contact@brainwave.io" class="text-lg">contact@brainwave.io</a>
                         </div>
@@ -42,7 +37,7 @@
                         <i class="icon-location"></i>
                         <div class="contact__info">
                             <p class="text-xl text-bold">Visit us</p>
-                            <a href="https://share.google/hjtBs7tkqhIGg9VRC" class="text-lg">
+                            <a href="https://share.google/hjtBs7tkqhIGg9VRC" class="text-lg text-faded">
                                 34 Madison Street,
                                 NY, USA 10005</a>
                         </div>

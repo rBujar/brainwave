@@ -1,33 +1,33 @@
-.videoBanner{
-    @include position($direction: row, $align: center);
-    text-align: center;
-    gap: 10px;
-    padding-top: 35px;
-    padding-bottom: 35px;
+.videoBanner {
+  @include position($direction: row, $align: center);
+  text-align: center;
+  gap: 10px;
+  padding-top: 35px;
+  padding-bottom: 35px;
 
-    i{
-        display: none
+  i {
+    display: none;
+  }
+
+  p {
+    @include position();
+    color: var(--general-color-white);
+
+    a {
+      text-decoration: underline;
     }
-
-    p{
-        @include position();
-        color: var(--general-color-white);
-
-        a{
-            text-decoration: underline;
-        }
-    }
+  }
 }
 
-@media (min-width: $sm){
-    .videoBanner{
-        p{
-            flex-direction: row;
-            gap: 8px;
-        }
-        
-        i{
-            display: block;
-        }
+@media (min-width: $sm) {
+  .videoBanner {
+    p {
+      flex-direction: row;
+      gap: 8px;
     }
+
+    i {
+      display: block;
+    }
+  }
 }

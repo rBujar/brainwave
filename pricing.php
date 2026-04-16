@@ -2,12 +2,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <?php viteClient(); ?>
-    <?php viteEntry('src/css/style.scss'); ?>
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo viteAsset('src/assets/favicon.ico'); ?>" />
-    <title>Brainwave</title>
+<?php include 'components/head.php'?>
 </head>
 <body>
     <main>
@@ -17,7 +12,7 @@
                 <div class="row">
                     <div class="pricing__title col-12 col-md-8 offset-md-2" data-aos="fade" data-aos-delay="100">
                         <h1 class="text-bold">Pricing & Plans</h1>
-                        <p class="text-md">With lots of unique blocks, you can easily build a page without coding. Build
+                        <p class="text-md text-faded">With lots of unique blocks, you can easily build a page without coding. Build
                             your next consultancy website within few minutes.</p>
                     </div>
                     <div class="pricing__cards col-12" data-aos="fade" data-aos-delay="150">
@@ -89,9 +84,9 @@
             </section>
             <section class="questions container">
                 <div class="row">
-                    <div class="questions__title col-8 offset-2" data-aos="fade" data-aos-delay="100">
+                    <div class="questions__title col-12" data-aos="fade" data-aos-delay="100">
                         <h2 class="text-bold">Frequently Asked Questions</h1>
-                            <p class="text-md">With lots of unique blocks, you can easily build a page without coding.
+                            <p class="text-md text-faded">With lots of unique blocks, you can easily build a page without coding.
                                 Build your next consultancy website within few minutes.</p>
                     </div>
                     <div class="questions__cards col-12 col-lg-8 offset-lg-2" data-aos="fade" data-aos-delay="150">
@@ -100,7 +95,7 @@
                                 <p class="text-md text-bold">Can I use Albino for my clients?</p>
                                 <i class="icon-arrow_right rightArrow"></i>
                             </div>
-                            <p class="text-md questions__answer">With lots of unique blocks, you can easily build a page
+                            <p class="text-md text-faded questions__answer">With lots of unique blocks, you can easily build a page
                                 without coding. Build your next landing page. Integer ut Oberyn massa. Sed feugiat vitae
                                 turpis a porta. Aliquam sagittis interdum Melisandre.</p>
                         </div>

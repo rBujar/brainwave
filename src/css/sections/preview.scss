@@ -1,87 +1,120 @@
 .preview {
-    &__title {
-        @include position();
-        text-align: center;
-        gap: 15px;
-        margin-bottom: 50px;
+  &__title {
+    @include position();
+    text-align: center;
+    gap: 15px;
+    margin-bottom: 50px;
 
-        p {
-            opacity: 0.7;
-        }
+    button {
+      padding: 12px 28px;
+    }
+  }
 
-        button {
-            padding: 12px 28px;
-        }
+  &__content {
+    @include position();
+  }
+
+  &__img {
+    margin-bottom: 50px;
+    width: 100%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  &__stats {
+    text-align: start;
+    padding-left: 10px;
+  }
+
+  &__item {
+    p {
+      margin-top: 10px;
+      margin-bottom: 30px;
     }
 
-    &__content {
-        @include position();
-        gap: 10px;
+    &:last-child {
+      p {
+        margin-bottom: 0px;
+      }
     }
-
-    &__stats {
-        text-align: start;
-    }
-
-    &__item {
-        p {
-            max-width: 315px;
-            margin-top: 10px;
-            margin-bottom: 30px;
-        }
-
-        &:last-child {
-            p {
-                margin-bottom: 0px;
-            }
-        }
-    }
+  }
 }
 
 @media (min-width: $sm) {
-    .preview {
-        &__title {
-            gap: 10px;
+  .preview {
+    &__title {
+      gap: 10px;
 
-            button {
-                margin-top: 10px;
-            }
-        }
-
-        &__content {
-            flex-direction: row;
-            justify-content: space-between;
-            gap: initial;
-        }
+      button {
+        margin-top: 10px;
+      }
     }
+
+    &__img {
+      margin-bottom: 0px;
+
+      img {
+        width: initial;
+      }
+    }
+
+    &__stats {
+      padding-left: 0px;
+    }
+
+    &__content {
+      flex-direction: row;
+      gap: initial;
+    }
+  }
 }
 
 @media (min-width: $md) {
-    .preview {
-        &__title {
-            align-items: start;
-            text-align: left;
-        }
-
-        &__content {
-            padding-left: 20px;
-            gap: 50px;
-        }
+  .preview {
+    &__title {
+      align-items: start;
+      text-align: left;
     }
+  }
 }
 
 @media (min-width: $lg) {
-    .preview {
-        &__title {
-            p {
-                padding-right: 10px;
-            }
-        }
-
-        &__content {
-            justify-content: center;
-            gap: 70px;
-            padding-left: 0px;
-        }
+  .preview {
+    &__title {
+      p {
+        padding-right: 20px;
+      }
     }
+
+    &__img {
+      width: fit-content;
+    }
+
+    &__content {
+      justify-content: space-between;
+    }
+
+    &__stats {
+      max-width: 315px;
+    }
+  }
+}
+@media (min-width: $xl) {
+  .preview {
+    &__title {
+      p {
+        padding-right: 20px;
+      }
+    }
+
+    &__content {
+      justify-content: space-between;
+    }
+
+    &__stats {
+      max-width: 400px;
+    }
+  }
 }

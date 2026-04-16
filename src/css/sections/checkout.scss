@@ -1,213 +1,220 @@
 .checkout {
-    &__title {
-        text-align: center;
-        margin-bottom: 50px;
+  &__title {
+    text-align: center;
+    margin-bottom: 50px;
 
-        h1 {
-            margin-bottom: 20px;
-        }
+    h1 {
+      margin-bottom: 20px;
+    }
+  }
+
+  &__content {
+    @include position();
+    gap: 40px;
+  }
+
+  &__card {
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: var(--general-color-white);
+    padding: 30px 25px;
+    width: 100%;
+    max-width: 480px;
+
+    label {
+      text-transform: capitalize;
+      display: block;
+      margin-bottom: 5px;
     }
 
-    &__content {
-        @include position();
-        gap: 40px;
+    input,
+    select {
+      border-radius: 8px;
+      border: 1px solid rgba(160, 160, 160, 0.2);
+      outline: none;
+      width: 100%;
+      padding: 10px;
     }
 
-    &__card {
-        border: none;
-        outline: none;
-        border-radius: 10px;
-        background-color: var(--general-color-white);
-        padding: 30px 25px;
-        width: 100%;
-        max-width: 480px;
+    input {
+      &::placeholder {
+        padding: 10px;
+        font-size: 14px;
+        opacity: 0.7;
+        overflow: hidden;
+      }
+    }
+  }
 
-        label {
-            text-transform: capitalize;
-            display: block;
-            margin-bottom: 5px;
-        }
+  &__billing,
+  &__payment {
+    @include position($align: start);
+    gap: 25px;
 
-        input,
-        select {
-            border-radius: 8px;
-            border: 1px solid rgba(160, 160, 160, 0.2);
-            outline: none;
-            width: 100%;
-            padding: 10px;
-        }
+    h5 {
+      margin-bottom: 10px;
+    }
+  }
 
-        input {
-            &::placeholder {
-                padding: 10px;
-                font-size: 14px;
-                opacity: 0.7;
-                overflow: hidden;
-            }
-        }
+  &__billing {
+    margin-bottom: 55px;
+  }
+
+  &__field {
+    width: 100%;
+  }
+
+  &__fieldGroup {
+    @include position($direction: row, $align: start, $justify: start);
+    width: 100%;
+    gap: 30px;
+  }
+
+  &__payMethod,
+  &__cardNum {
+    @include position($direction: row, $justify: space-between);
+    border-radius: 8px;
+    border: 1px solid rgba(160, 160, 160, 0.2);
+    outline: none;
+    width: 100%;
+    padding: 12px;
+
+    input {
+      border: none;
+      background-color: transparent;
+    }
+  }
+
+  &__payMethod {
+    img {
+      width: 100px;
+      height: auto;
+    }
+  }
+
+  &__cardNum {
+    padding: 8px;
+
+    input {
+      padding: 0px;
+    }
+  }
+
+  &__radio {
+    @include position($direction: row, $justify: start);
+    gap: 5px;
+
+    input {
+      width: initial;
     }
 
-    &__billing,
-    &__payment {
-        @include position($align: start);
-        gap: 25px;
-
-        h5 {
-            margin-bottom: 10px;
-        }
+    label {
+      margin-bottom: initial;
     }
+  }
 
-    &__billing {
-        margin-bottom: 55px;
+  &__link {
+    @include position();
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    a {
+      color: var(--primary-color-blue);
+      transition: color 0.2s ease-in-out;
+
+      &:hover {
+        color: var(--primary-color-hoverBlue);
+      }
     }
+  }
 
-    &__field {
-        width: 100%;
+  &__button {
+    width: 100%;
+    padding: 15px 35px;
+  }
+
+  &__orderDetails {
+    @include position($align: start);
+    background-color: var(--general-color-white);
+    border-radius: 10px;
+    padding: 25px;
+    width: 100%;
+
+    .blue-btn {
+      margin-top: 20px;
+      padding: 20px 35px;
+      width: 100%;
     }
+  }
 
-    &__fieldGroup {
-        @include position($direction: row, $align: start, $justify: start);
-        width: 100%;
-        gap: 30px;
+  &__details {
+    width: 100%;
+  }
+
+  &__detailsTitle {
+    margin-bottom: 25px;
+
+    h5 {
+      margin-bottom: 30px;
     }
+  }
 
-    &__payMethod,
-    &__cardNum {
-        @include position($direction: row, $justify: space-between);
-        border-radius: 8px;
-        border: 1px solid rgba(160, 160, 160, 0.2);
-        outline: none;
-        width: 100%;
-        padding: 12px;
+  &__detailsInfo {
+    @include position($direction: row, $align: start, $justify: space-between);
+    width: 100%;
+  }
 
-        input {
-            border: none;
-            background-color: transparent;
-        }
-    }
+  &__detailCard {
+    margin-bottom: 10px;
+    background-color: var(--general-color-white);
+    border-radius: 10px;
+    padding: 15px;
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.88);
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.88);
+  }
 
-    &__payMethod {
-        img {
-            width: 100px;
-            height: auto;
-        }
-    }
+  &__product {
+    @include position($direction: row, $justify: space-between);
+    gap: 15px;
+  }
+}
 
-    &__cardNum {
-        padding: 8px;
-
-        input {
-            padding: 0px;
-        }
-    }
-
-    &__radio {
-        @include position($direction: row, $justify: start);
-        gap: 5px;
-
-        input {
-            width: initial;
-        }
-
-        label {
-            margin-bottom: initial;
-        }
-    }
-
-    &__link {
-        @include position();
-        margin-top: 30px;
-        margin-bottom: 30px;
-
-        a {
-            color: var(--primary-color-blue);
-            transition: color 0.2s ease-in-out;
-
-            &:hover {
-                color: var(--primary-color-hoverBlue);
-            }
-        }
-    }
-
-    &__button {
-        width: 100%;
-        padding: 15px 35px;
-    }
-
+@media (min-width: $xs) {
+  .checkout {
     &__orderDetails {
-        @include position($align: start);
-        background-color: var(--general-color-white);
-        border-radius: 10px;
-        padding: 25px;
-        width: 100%;
-        max-width: 365px;
-
-        .blue-btn {
-            margin-top: 20px;
-            padding: 20px 35px;
-            width: 100%;
-        }
+      max-width: 365px;
     }
-
-    &__details {
-        width: 100%;
-    }
-
-    &__detailsTitle {
-        margin-bottom: 25px;
-
-        h5 {
-            margin-bottom: 30px;
-        }
-    }
-
-    &__detailsInfo {
-        @include position($direction: row, $align: start, $justify: space-between);
-        width: 100%;
-    }
-
-    &__detailCard {
-        margin-bottom: 10px;
-        background-color: var(--general-color-white);
-        border-radius: 10px;
-        padding: 15px;
-        -webkit-box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.88);
-        box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.88);
-    }
-
-    &__product {
-        @include position($direction: row, $justify: space-between);
-        gap: 15px;
-    }
+  }
 }
 
 @media (min-width: $md) {
-    .checkout {
-        &__title {
-            margin-bottom: 80px;
+  .checkout {
+    &__title {
+      margin-bottom: 80px;
 
-            h1 {
-                margin-bottom: 40px;
-            }
-        }
-
-        &__content {
-            @include position($direction: row, $align: start);
-            gap: 95px;
-        }
-
-        &__link {
-            flex-direction: row;
-
-            a {
-                margin-left: 4px;
-            }
-        }
-
-          &__payMethod {
-        img {
-            width: initial;
-        }
+      h1 {
+        margin-bottom: 40px;
+      }
     }
+
+    &__content {
+      @include position($direction: row, $align: start);
+      gap: 95px;
     }
+
+    &__link {
+      flex-direction: row;
+
+      a {
+        margin-left: 4px;
+      }
+    }
+
+    &__payMethod {
+      img {
+        width: initial;
+      }
+    }
+  }
 }
