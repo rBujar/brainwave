@@ -14,7 +14,7 @@
                     <h3>Related Products</h3>
                 </div>
                  <div class="related__cards col-12">
-                    <a href="./product/shoe.php"><div class="related__item">
+                    <a href="./shoe.php"><div class="related__item">
                         <img src="../src/assets/related-1.jpg" alt="related product 1">
                         <div class="related__info">
                             <div class="related__price">
@@ -31,7 +31,7 @@
                             </div>
                         </div>
                     </div></a>
-                    <a href="./product/airmax.php"><div class="related__item">
+                    <a href="./airmax.php"><div class="related__item">
                         <img src="../src/assets/related-2.jpg" alt="related product 2">
                         <div class="related__info">
                             <div class="related__price">
@@ -48,7 +48,7 @@
                             </div>
                         </div>
                     </div></a>
-                    <a href="./product/lamp.php"><div class="related__item">
+                    <a href="./lamp.php"><div class="related__item">
                         <img src="../src/assets/related-3.jpg" alt="related product 3">
                         <div class="related__info">
                             <div class="related__price">
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </div></a>
-                    <a href="./product/lamp.php"><div class="related__item">
+                    <a href="./lamp.php"><div class="related__item">
                         <img src="../src/assets/related-4.jpg" alt="related product 4">
                         <div class="related__info">
                             <div class="related__price">
