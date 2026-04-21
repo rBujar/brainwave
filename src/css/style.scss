@@ -51,6 +51,10 @@ body {
     --text-color-grey: #a0a0a0;
 }
 
+html{
+    touch-action: manipulation;
+}
+
 button,
 a {
     cursor: pointer;
