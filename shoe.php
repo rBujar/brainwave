@@ -12,7 +12,8 @@
             <div class="product__shop col-12">
                 <div class="row">
                     <div class="product__swiperContainer col-12 col-lg-6" data-aos="fade" data-aos-delay="100">
-                        <div class="swiper mySwiper2 product__swiper2">
+                        <div class="row">
+                        <div class="swiper mySwiper2 product__swiper2 col-12 col-md-9 col-lg-10">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide"><img src="./src/assets/product/shoe-1.jpg" alt=""></div>
                                 <div class="swiper-slide"><img src="./src/assets/product/shoe-2.jpg" alt=""></div>
@@ -20,7 +21,7 @@
                                 <div class="swiper-slide"><img src="./src/assets/product/shoe-4.jpg" alt=""></div>
                             </div>
                         </div>
-                        <div class="swiper mySwiper product__swiper">
+                        <div class="swiper mySwiper product__swiper col-9 col-md-2">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide product__smallSlide"><img src="./src/assets/product/miniShoe-1.jpg"
                                         alt=""></div>
@@ -32,8 +33,9 @@
                                         alt=""></div>
                             </div>
                         </div>
+                        </div>
                     </div>
-                    <div class="product__info col-12 col-lg-5 offset-lg-1 col-xxl-6 offset-xxl-0" data-aos="fade" data-aos-delay="150">
+                    <div class="product__info col-12 col-lg-5 offset-lg-1" data-aos="fade" data-aos-delay="150">
                         <div class="product__stars">
                             <i class="icon-full_star"></i>
                             <i class="icon-full_star"></i>
@@ -132,23 +134,6 @@
                     <h3>Related Products</h3>
                 </div>
                  <div class="related__cards col-12">
-                    <a href="#"><div class="related__item">
-                        <img src="./src/assets/related-1.jpg" alt="related product 1">
-                        <div class="related__info">
-                            <div class="related__price">
-                                <p class="text-lg text-bold">$120</p>
-                                <p class="text-sm">$350</p>
-                            </div>
-                            <p class="text-lg text-bold">Men Shoe</p>
-                            <div class="related__stars">
-                                <i class="icon-full_star"></i>
-                                <i class="icon-full_star"></i>
-                                <i class="icon-full_star"></i>
-                                <i class="icon-full_star"></i>
-                                <i class="icon-half_star"></i>
-                            </div>
-                        </div>
-                    </div></a>
                     <a href="./airmax.php"><div class="related__item">
                         <img src="./src/assets/related-2.jpg" alt="related product 2">
                         <div class="related__info">

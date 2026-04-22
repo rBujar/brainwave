@@ -11,7 +11,7 @@
         <section class="related container" data-aos="fade" data-aos-delay="100">
             <div class="row">
                 <div class="related__title col-12">
-                    <h3>Related Products</h3>
+                    <h3>Products</h3>
                 </div>
                  <div class="related__cards col-12">
                     <a href="./shoe.php"><div class="related__item">

@@ -36,7 +36,7 @@
             </div>
             <div class="preview__content col-12 col-lg-8" data-aos="fade" data-aos-delay="150">
               <div class="preview__img">
-                <img src="./src/assets/preview.svg" alt="preview-img">
+                <img src="./src/assets/preview.jpg" alt="preview-img">
               </div>
               <div class="preview__stats">
                 <div class="preview__item">
@@ -65,7 +65,7 @@
           <div class="services__cards col-12 col-md-6 offset-md-3 col-lg-10 offset-lg-1" data-aos="fade" data-aos-delay="150">
           <div class="services__item">
             <h5 class="text-lg text-bold">Digital Marketing</h5>
-            <img src="./src/assets/services1.svg" alt="services-1">
+            <img src="./src/assets/service-1.jpg" alt="service-1">
             <p class="text-md text-faded">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
             <div class="services__link">
               <a href="#" class="text-md text-bold">Learn more</a>
@@ -74,7 +74,7 @@
           </div>
           <div class="services__item">
             <h5 class="text-lg text-bold">Business Growth</h5>
-            <img src="./src/assets/services2.svg" alt="services-1">
+            <img src="./src/assets/service-2.jpg" alt="service-1">
             <p class="text-md text-faded">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
             <div class="services__link">
               <a href="#" class="text-md text-bold">Learn more</a>
@@ -83,7 +83,7 @@
           </div>
           <div class="services__item">
             <h5 class="text-lg text-bold">Content Marketing</h5>
-            <img src="./src/assets/services1.svg" alt="services-1">
+            <img src="./src/assets/service-3.jpg" alt="services-2">
             <p class="text-md text-faded">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
             <div class="services__link">
               <a href="#" class="text-md text-bold">Learn more</a>

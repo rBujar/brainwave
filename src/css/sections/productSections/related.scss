@@ -37,8 +37,8 @@
 @media (min-width: $md) {
   .related {
     &__cards {
-      @include position($direction: row, $align: start);
-      gap: 30px;
+      @include position($direction: row, $align: start, $justify: space-evenly);
+      gap: initial;
     }
   }
 }

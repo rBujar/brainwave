@@ -1,7 +1,7 @@
 <div class="dark-bg">
     <footer class="footer container">
         <div class="footer__logo">
-            <h4 class="text-bold logo-style">Brainwave.io</h4>
+            <h4 class="text-bold logo-style"><a href="../index.php">Brainwave.io</a></h4>
             <p class="text-xs">With lots of unique blocks, you can easily build a page without coding. Build your next landing page.</p>
             <div class="footer__socials">
                 <i class="icon-twitter"></i>

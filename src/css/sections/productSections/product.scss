@@ -1,12 +1,11 @@
 .product {
   &__swiperContainer {
     margin-bottom: 30px;
-    max-height: 505px;
   }
 
   &__swiper2 {
     img {
-      width: 495px;
+      width: 100%;
       height: auto;
     }
   }
@@ -15,30 +14,21 @@
     margin-top: 10px;
 
     .swiper-wrapper {
-      @include position($direction: row, $justify: center, $align: start);
-      gap: 10px;
+      @include position($direction: initial, $justify: start, $align: start);
     }
 
     .swiper-wrapper .swiper-slide {
-      width: 65px !important;
-      margin-right: 0px !important;
+      max-height: fit-content !important;
       cursor: pointer;
 
-      transition: width 0.2s ease-in-out;
-
       &.swiper-slide-thumb-active {
-        border: 1px solid var(--general-color-black);
-        border-radius: 10px;
-        width: 70px !important;
-      }
-
-      &.not-active {
-        transform: scale(0.9);
-        filter: blur(1px);
+        img {
+          border: 1px solid var(--general-color-black);
+        }
       }
 
       img {
-        width: 100%;
+        width: auto;
         border-radius: 10px;
       }
     }
@@ -220,29 +210,13 @@
       gap: 120px;
     }
 
-    &__swiperContainer {
-      @include position($direction: row, $justify: center, $align: start);
-      gap: 10px;
-    }
-
     &__swiper2 {
       order: 2;
-
-      .swiper-slide-active {
-        margin-right: 0px !important;
-      }
     }
 
     &__swiper {
-      order: 1;
-      width: 50%;
       margin-top: 0px;
-
-      .swiper-wrapper {
-        @include position($justify: start, $align: start);
-        height: initial;
-        gap: 10px;
-      }
+      order: 1;
     }
   }
 }
@@ -253,16 +227,10 @@
       margin-bottom: 0px;
     }
 
-    &__swiper {
-      width: 70%;
-    }
-  }
-}
-
-@media (min-width: $lg) {
-  .product {
-    &__swiper {
-      width: 60%;
+    &__swiper2 {
+      img {
+        height: initial;
+      }
     }
   }
 }
