@@ -6,15 +6,15 @@
 </head>
 <body>
     <?php include 'components/header.php' ?>
-    <section class="terms container">
-        <div class="row">
-            <div class="terms__title col-12 col-lg-8 offset-lg-2">
-                <h1>Terms & Conditions</h1>
-                <p class="text-md text-faded">By accessing and placing an order with UXTheme, you confirm that you are in agreement
+    <section class="terms container mx-auto px-4">
+        <div class="grid grid-cols-12">
+            <div class="terms__title col-span-12 lg:col-span-6 lg:col-start-4 text-center mb-10">
+                <h1 class="mb-9 lg:mb-11">Terms & Conditions</h1>
+                <p class="p-style">By accessing and placing an order with UXTheme, you confirm that you are in agreement
                     with and bound by the terms and conditions</p>
             </div>
-            <div class="terms__content col-12 col-lg-8 offset-lg-2">
-                <p class="text-md text-faded" data-aos="fade" data-aos-delay="100">
+            <div class="terms__content col-span-12 lg:col-span-8 lg:col-start-3 flex flex-col items-start justify-start gap-11">
+                <p class="p-style" data-aos="fade" data-aos-delay="100">
                     By accessing and placing an order with UXTheme, you confirm that you are in agreement with and bound
                     by
                     the terms and conditions contained in the Terms Of Use outlined below. These terms apply to the
@@ -32,41 +32,41 @@
                     for any outcome that may occur during the course of usage of our resources.
                 </p>
                 <div class="terms__license" data-aos="fade" data-aos-delay="100">
-                    <h5 class="text-md text-bold">License</h5>
-                    <p class="text-md text-faded">By purchasing or downloading resource (“item” or “file”) you are being granted a
+                    <h5 class="text-lg font-bold mb-5">License</h5>
+                    <p class="p-style">By purchasing or downloading resource (“item” or “file”) you are being granted a
                         license to use these files for specific uses under certain conditions. Ownership remains with
                         UXTheme, and you are required to abide by the following licensing terms.</p>
                 </div>
                 <div class="terms__security" data-aos="fade" data-aos-delay="150">
-                    <h5 class="text-md text-bold">Security</h5>
-                    <ul class="terms__list">
+                    <h5 class="text-lg font-bold mb-5">Security</h5>
+                    <ul class="terms__list pl-4 [&>li]:list-disc">
                         <li>
-                            <p class="text-md text-faded">You have rights for royalty free use of our resources for any or all of
+                            <p class="p-style">You have rights for royalty free use of our resources for any or all of
                                 your personal.</p>
                         </li>
-                        <li>
-                            <p class="text-md text-faded">You are not required to attribute or link to UXTheme in any of projects.
+                        <li class="my-5">
+                            <p class="p-style">You are not required to attribute or link to UXTheme in any of projects.
                             </p>
                         </li>
                         <li>
-                            <p class="text-md text-faded">We reserve the rights to change prices and revise the resources usage
+                            <p class="p-style">We reserve the rights to change prices and revise the resources usage
                                 policy in any moment.</p>
                         </li>
                     </ul>
                 </div>
                 <div class="terms__embContent" data-aos="fade" data-aos-delay="200">
-                    <h5 class="text-md text-bold">Embedded content from other websites</h5>
-                    <p class="text-md text-faded">Articles on this site may include embedded content (e.g. videos, images,
+                    <h5 class="text-lg font-bold mb-5">Embedded content from other websites</h5>
+                    <p class="p-style">Articles on this site may include embedded content (e.g. videos, images,
                         articles, etc.). Embedded content from other websites behaves in the exact same way as if the
                         visitor has visited the other website.</p>
-                    <p class="text-md text-faded">These websites may collect data about you, use cookies, embed additional
+                    <p class="p-style">These websites may collect data about you, use cookies, embed additional
                         third-party tracking, and monitor your interaction with that embedded content, including
                         tracking your interaction with the embedded content if you have an account and are logged in to
                         that website.</p>
                 </div>
                 <div class="terms__changes" data-aos="fade" data-aos-delay="250">
-                    <h5 class="text-md text-bold">Changes about terms</h5>
-                    <p class="text-md text-faded">If we change our terms of use we will post those changes on this page. Registered
+                    <h5 class="text-lg font-bold mb-5">Changes about terms</h5>
+                    <p class="p-style">If we change our terms of use we will post those changes on this page. Registered
                         users will be sent an email that outlines changes made to the terms of use.</p>
                 </div>
             </div>

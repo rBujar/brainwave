@@ -1,5 +1,5 @@
 const videoButton = document.querySelector(".play-btn")
-const videoContent = document.querySelector(".content")
+const videoContent = document.querySelector('.content')
 const video = document.querySelector(".video-bg")
 
 function playVideo(){

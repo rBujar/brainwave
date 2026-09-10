@@ -28,8 +28,9 @@ var swiper = new Swiper(".mySwiper", {
       }
     });
     var swiper2 = new Swiper(".mySwiper2", {
-      spaceBetween: 40,
+      spaceBetween: 20,
       centeredSlides: true,
+      loop: true,
       thumbs: {
         swiper: swiper,
       },

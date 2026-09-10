@@ -1,0 +1,172 @@
+@import "tailwindcss";
+@import "/src/css/brainwave-fonts.css";
+
+body {
+  font-family: "Gilroy";
+  font-weight: normal;
+  font-style: normal;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@theme {
+  --color-primary-blue: #473bf0;
+  --color-primary-hoverBlue: #736af4;
+  --color-primary-green: #68d585;
+  --color-primary-red: #f74d4d;
+  --color-secondary-lightRed: #f97e7e;
+  --color-secondary-lightGreen: #90e0a5;
+  --color-secondary-lightBlue: #473bf033;
+  --color-general-black: #161c2d;
+  --color-general-white: #ffffff;
+  --color-general-grey: #a0a0a0;
+}
+
+html {
+  touch-action: manipulation;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding: 0px;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 48px;
+}
+
+h2 {
+  font-size: 32px;
+  line-height: 44px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 34px;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 32px;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+}
+
+.header__hamburger--bar {
+  @apply block bg-primary-blue rounded-sm w-6 h-0.5 transition-all duration-300 ease-in-out;
+}
+
+.p-style {
+  @apply text-base lg:text-lg opacity-75;
+}
+
+.blue-btn {
+  @apply bg-primary-blue text-general-white transition-colors duration-200 ease-in-out capitalize [&hover]:bg-primary-hoverBlue;
+}
+
+.white-btn {
+  @apply bg-general-white text-general-black transition-colors duration-200 ease-in-out hover:bg-general-black hover:text-general-white;
+}
+
+.dark-bg {
+  @apply bg-[#161c2d];
+}
+
+.grey-bg {
+  @apply bg-[#F4F7FA];
+}
+
+.green-bg {
+  @apply bg-primary-green;
+}
+
+.error {
+  @apply text-primary-red text-sm font-bold tracking-[0.5px] absolute -bottom-[25px] left-[10px];
+}
+
+.logo-style {
+  font-family: "Rubik", sans-serif;
+  font-size: 28px;
+  line-height: 30px;
+}
+
+section {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  h2 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  h3 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  h4 {
+    font-size: 24px;
+    line-height: 34px;
+  }
+}
+
+@media (min-width: 1024px) {
+  section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 60px;
+    line-height: 65px;
+  }
+
+  h2 {
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  h3 {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  h4 {
+    font-size: 32px;
+    line-height: 44px;
+  }
+
+  section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}

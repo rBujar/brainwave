@@ -6,73 +6,73 @@
 </head>
 <body>
     <?php include '../components/header.php' ?>
-    <section class="job container">
-        <div class="row">
-            <div class="job__title col-12 col-lg-8 offset-lg-2" data-aos="fade" data-aos-delay="100">
-                <h1>UX Designer</h1>
-                <p class="text-md">Full Time, Remote</p>
+    <section class="job container mx-y px-4">
+        <div class="grid grid-cols-12">
+            <div class="job__title col-span-12 md:col-span-6 md:col-start-4 text-center mb-[50px]" data-aos="fade" data-aos-delay="100">
+                <h1 class="mb-7">UX Designer</h1>
+                <p class="p-style">Full Time, Remote</p>
             </div>
-            <div class="job__content col-12 col-lg-8 offset-lg-2">
-                <div class="job__intro" data-aos="fade" data-aos-delay="100">
-                    <p class="text-md">Headquartered in New York, USA, our company is a product-driven organization
+            <div class="job__content col-span-12 md:col-span-8 md:col-start-3">
+                <div class="job__intro mb-[60px]" data-aos="fade" data-aos-delay="100">
+                    <p class="p-style">Headquartered in New York, USA, our company is a product-driven organization
                         focused on creating intuitive and impactful digital experiences for users around the world. We
                         believe great design is at the core of every successful product.</p>
-                    <p class="text-md">Since our founding, we have worked on a wide range of digital platforms, helping
+                    <p class="p-style my-[50px]">Since our founding, we have worked on a wide range of digital platforms, helping
                         businesses improve user engagement, accessibility, and overall product usability. Our design
                         team plays a key role in shaping experiences that are both functional and visually compelling.
                     </p>
-                    <p class="text-md">With a growing remote-first team of designers, developers, and product managers,
+                    <p class="p-style">With a growing remote-first team of designers, developers, and product managers,
                         we are committed to building user-centered solutions that solve real-world problems and deliver
                         measurable impact.</p>
                 </div>
-                <div class="job__desc" data-aos="fade" data-aos-delay="100">
-                    <h4 class="text-xl text-bold">What you'll be doing</h4>
-                    <p class="text-md">As a UX Designer, you will be responsible for researching user needs, creating
+                <div class="job__desc mb-9" data-aos="fade" data-aos-delay="100">
+                    <h4 class="text-xl text-bold mb-7">What you'll be doing</h4>
+                    <p class="p-style">As a UX Designer, you will be responsible for researching user needs, creating
                         wireframes and prototypes, and designing intuitive user interfaces. You will collaborate closely
                         with product managers and developers to ensure a seamless user experience from concept to final
                         implementation. Your work will directly influence how users interact with our digital products.
                     </p>
                 </div>
-                <div class="job__skills" data-aos="fade" data-aos-delay="150">
-                    <h4 class="text-xl text-bold">Skills & Qualifications</h4>
-                    <ul class="job__list">
+                <div class="job__skills mb-11" data-aos="fade" data-aos-delay="150">
+                    <h4 class="text-xl text-bold mb-4">Skills & Qualifications</h4>
+                    <ul class="job__list flex flex-col items-start justify-start gap-7 pl-4 [&>li]:list-disc">
                         <li>
-                            <p class="text-md">Strong portfolio demonstrating UX/UI design projects</p>
+                            <p class="p-style">Strong portfolio demonstrating UX/UI design projects</p>
                         </li>
                         <li>
-                            <p class="text-md">Experience with design tools such as Figma, Sketch, or Adobe XD</p>
+                            <p class="p-style">Experience with design tools such as Figma, Sketch, or Adobe XD</p>
                         </li>
                         <li>
-                            <p class="text-md">Knowledge of user research methods and usability testing</p>
+                            <p class="p-style">Knowledge of user research methods and usability testing</p>
                         </li>
                         <li>
-                            <p class="text-md">Understanding of interaction design and information architecture</p>
+                            <p class="p-style">Understanding of interaction design and information architecture</p>
                         </li>
                         <li>
-                            <p class="text-md">Ability to create wireframes, prototypes, and high-fidelity designs</p>
+                            <p class="p-style">Ability to create wireframes, prototypes, and high-fidelity designs</p>
                         </li>
                         <li>
-                            <p class="text-md">Strong communication and collaboration skills</p>
+                            <p class="p-style">Strong communication and collaboration skills</p>
                         </li>
                         <li>
-                            <p class="text-md">Experience working in agile or cross-functional teams</p>
+                            <p class="p-style">Experience working in agile or cross-functional teams</p>
                         </li>
                         <li>
-                            <p class="text-md">Attention to detail and a user-first mindset</p>
+                            <p class="p-style">Attention to detail and a user-first mindset</p>
                         </li>
                         <li>
-                            <p class="text-md">Ability to translate complex requirements into simple and intuitive
+                            <p class="p-style">Ability to translate complex requirements into simple and intuitive
                                 designs</p>
                         </li>
                     </ul>
                 </div>
-                <div class="job__apply" data-aos="fade" data-aos-delay="100">
-                    <h4 class="text-xl text-bold">How to apply</h4>
-                    <p class="text-md">If we make updates to this job posting, they will be reflected on this page.
+                <div class="job__apply mb-[50px]" data-aos="fade" data-aos-delay="100">
+                    <h4 class="text-xl text-bold mb-7">How to apply</h4>
+                    <p class="p-style">If we make updates to this job posting, they will be reflected on this page.
                         Registered users will receive an email notification outlining any changes to the job details.
                     </p>
                 </div>
-                <button class="blue-btn" data-aos="fade" data-aos-delay="150">Apply for this job</button>
+                <button class="blue-btn max-w-[210px] py-5 px-6" data-aos="fade" data-aos-delay="150">Apply for this job</button>
             </div>
         </div>
     </section>
