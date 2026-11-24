@@ -25,7 +25,7 @@
                 <ul class="footer__links [&>li]:mb-5 [&>li:last-child]:mb-0 [&>li>a]:transition-colors [&>li>a]:duration-200 [&>li>a]:ease-in-out [&>li>a:hover]:text-general-grey xl:[&>li]:mb-3">
                     <li><a href="#" class="text-md">Features</a></li>
                     <li><a href="../pricing.php" class="text-md">Pricing</a></li>
-                    <li><a href="../product.php" class="text-md">Product</a></li>
+                    <li><a href="../products.php" class="text-md">Products</a></li>
                     <li><a href="../cart.php" class="text-md">Cart</a></li>
                     <li><a href="../checkout.php" class="text-md">Checkout</a></li>
                 </ul>

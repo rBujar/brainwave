@@ -6,7 +6,7 @@
       <ul class="header__menu flex flex-col justify-center items-center text-primary-white [&>li]:text-[32px] gap-10 xl:flex-row xl:gap-[30px] xl:[&>li]:text-[16px]/[16px]">
             <li class="header__item text-base font-bold"><a href="../pricing.php">Pricing</a></li>
             <li class="header__item text-base font-bold"><a href="../careers.php">Careers</a></li>
-            <li class="header__item text-base font-bold"><a href="../product.php">Products</a></li>
+            <li class="header__item text-base font-bold"><a href="../products.php">Products</a></li>
             <li class="header__item text-base font-bold"><a href="../contact.php">Contact</a></li>
         </ul>
         <div class="header__button">

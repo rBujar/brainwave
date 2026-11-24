@@ -1,19 +1,10 @@
-const answer = document.querySelectorAll(".questions__answer");
-const question = document.querySelectorAll(".questions__item");
-const askArrow = document.querySelectorAll(".rightArrow");
+const cards = document.querySelector('.questions__cards')
 
-askArrow.forEach((arrow, i) => {
-  arrow.addEventListener("click", () => {
-    askArrow.forEach((a, j) => {
-      if (j !== i) {
-        a.classList.remove("active");
-        answer[j].classList.remove("active");
-        question[j].classList.remove("active");
-      }
-    });
+cards?.addEventListener('click', (e) => {
+  const item = e.target.closest('.questions__item')
+  if (!item) return
 
-    arrow.classList.toggle("active");
-    answer[i].classList.toggle("active");
-    question[i].classList.toggle("active");
-  });
-});
+  item.classList.toggle('active')
+  item.querySelector('.rightArrow')?.classList.toggle('active')
+  item.querySelector('.questions__answer')?.classList.toggle('active')
+})

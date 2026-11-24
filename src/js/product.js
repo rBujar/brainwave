@@ -16,25 +16,28 @@ if(inputNumber > 0) inputNumber--;
 });
 
 
-var swiper = new Swiper(".mySwiper", {
-      spaceBetween: 10,
-      slidesPerView: 4,
-      freeMode: true,
-      watchSlidesProgress: true,
-      breakpoints: {
-        768: {
-          direction: 'vertical'
-        }
+export function initProductSwiper() {
+  const swiper = new Swiper(".mySwiper", {
+    spaceBetween: 10,
+    slidesPerView: 4,
+    freeMode: true,
+    watchSlidesProgress: true,
+    breakpoints: {
+      768: {
+        direction: 'vertical'
       }
-    });
-    var swiper2 = new Swiper(".mySwiper2", {
-      spaceBetween: 20,
-      centeredSlides: true,
-      loop: true,
-      thumbs: {
-        swiper: swiper,
-      },
-    });
+    }
+  });
+
+  new Swiper(".mySwiper2", {
+    spaceBetween: 20,
+    centeredSlides: true,
+    loop: true,
+    thumbs: {
+      swiper: swiper,
+    },
+  });
+}
 
 button.forEach((btn, i) => {
   btn.addEventListener("click", () => {
